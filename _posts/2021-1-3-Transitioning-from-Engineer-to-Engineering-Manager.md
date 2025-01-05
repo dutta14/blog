@@ -1,6 +1,6 @@
 ---
 layout: post
-title: #1 Transitioning from Engineer to Engineering Manager
+title: <1> Transitioning from Engineer to Engineering Manager
 date: 2021-1-3
 ---
 
