@@ -1,4 +1,46 @@
-# React + TypeScript + Vite
+# blog.anindya.dev
+
+Personal blog by [Anindya Dutta](https://anindya.dev). Essays on engineering, leadership, and building things.
+
+## Stack
+
+- React + Vite + TypeScript
+- EB Garamond (serif body) + Inter (UI)
+- Pure CSS, no component library
+- Posts written in Markdown with frontmatter, loaded via `import.meta.glob`
+- Deployed to GitHub Pages at [blog.anindya.dev](https://blog.anindya.dev)
+
+## Writing a new post
+
+Add a `.md` file to `src/posts/` with this frontmatter:
+
+```markdown
+---
+title: Your post title
+date: January 1, 2025
+excerpt: First sentence or two for the post list.
+---
+
+Your post body here. No headers, no lists — just paragraphs.
+```
+
+The filename becomes the URL slug. The post list sorts newest first automatically.
+
+## Development
+
+```bash
+npm install
+npm run dev        # localhost:5173
+```
+
+## Deploy
+
+```bash
+npm run deploy     # builds and pushes dist/ to gh-pages branch
+```
+
+Source lives on `main`. Built site is served from `gh-pages`.
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
