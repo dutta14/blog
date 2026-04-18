@@ -16,7 +16,7 @@ export default function About() {
           to work. Just the page and whatever is on your mind.
         </p>
         <p>
-          I build software for a living. I have done it for fifteen years, at companies large and small,
+          I build software for a living. I have done it for twelve years, at companies large and small,
           as an engineer and then as a manager of engineers. Most of what I write here comes from that
           world, but I try not to write about it the way people usually do. No frameworks. No lessons.
           Just what it was actually like to be in the room.
