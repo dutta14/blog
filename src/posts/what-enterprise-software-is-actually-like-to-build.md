@@ -1,0 +1,11 @@
+---
+title: What enterprise software is actually like to build
+date: September 27, 2023
+excerpt: The first customer advisory board I attended was in 2022, a room in a downtown Seattle hotel where twelve IT administrators from large companies sat at a conference table and told us, politely, about the ways our product had made their lives complicated.
+---
+
+The first customer advisory board I attended was in 2022, a room in a downtown Seattle hotel where twelve IT administrators from large companies sat at a conference table and told us, politely, about the ways our product had made their lives complicated. Not the end user's life. Their life. The settings page that required domain-level permissions to configure. The audit log that didn't capture the right fields for their compliance team. The update that had gone out without enough notice for them to coordinate their helpdesk ahead of it. I sat at the back of the room and took notes and thought: we had built this for the person using it and had not thought enough about the person administering it.
+
+Enterprise software has a structure that consumer software doesn't, or not in the same way. The person who uses the product and the person who buys the product are almost never the same person. The person who buys it is thinking about security posture and license management and the conversation they will have with the CISO in the quarterly review. The person who uses it is thinking about whether the feature is fast enough that they'll use it instead of the old way. These are not incompatible goals. They require different conversations with different people in the same meeting.
+
+What changed in me after enough of those customer advisory boards was a specific respect for complexity I had been impatient with before. The IT admin with the audit log question was not being difficult. She was responsible for telling a thousand employees what had changed and why, on a Friday afternoon, and she needed the right information to do that. The compliance review that delayed our feature by six weeks was not bureaucracy for its own sake. It was someone asking whether the thing we built would work safely in the kind of environment they had to maintain. I am a better product builder for having been in that room, more than once, listening to the people whose job it was to keep things from breaking.
