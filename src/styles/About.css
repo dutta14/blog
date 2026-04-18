@@ -9,8 +9,20 @@
   margin-bottom: 2rem;
 }
 
-.about-placeholder {
-  font-style: italic;
-  color: var(--text-muted);
+.about-page p {
   font-family: var(--font-serif);
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+  max-width: 680px;
+}
+
+.about-page a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.about-page a:hover {
+  color: var(--secondary-hover);
 }
