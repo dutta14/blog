@@ -1,0 +1,69 @@
+.home {
+  padding: 3rem 0;
+}
+
+.home-header {
+  margin-bottom: 2.5rem;
+}
+
+.home-header h1 {
+  font-size: 2.5rem;
+  font-family: var(--font-serif);
+  font-weight: 400;
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+}
+
+.home-subtitle {
+  font-family: var(--font-ui);
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.post-list {
+  list-style: none;
+}
+
+.post-item {
+  border-bottom: 1px solid var(--border-color);
+  padding: 1.5rem 0;
+}
+
+.post-item:first-child {
+  border-top: 1px solid var(--border-color);
+}
+
+.post-item-title {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0.25rem;
+}
+
+.post-item-title a {
+  color: var(--text-dark);
+}
+
+.post-item-title a:hover {
+  color: var(--secondary);
+}
+
+.post-item-meta {
+  font-family: var(--font-ui);
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 0.4rem;
+}
+
+.post-item-excerpt {
+  font-size: 0.95rem;
+  color: var(--text-light);
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem 0;
+  font-style: italic;
+  color: var(--text-muted);
+  font-family: var(--font-serif);
+}

@@ -1,0 +1,23 @@
+:root {
+  --secondary: #0f766e;
+  --secondary-hover: #0d6159;
+  --text-dark: #1a1a1a;
+  --text-light: #555555;
+  --text-muted: #888888;
+  --border-color: #e0e0e0;
+  --surface: #ffffff;
+  --page-bg: #fafafa;
+  --font-serif: 'EB Garamond', Georgia, serif;
+  --font-ui: 'Inter', system-ui, sans-serif;
+}
+
+body.dark-mode {
+  --secondary: #14b8a6;
+  --secondary-hover: #2dd4bf;
+  --text-dark: #e8e8e8;
+  --text-light: #aaaaaa;
+  --text-muted: #666666;
+  --border-color: #2a2a2a;
+  --surface: #1a1a1a;
+  --page-bg: #111111;
+}

@@ -1,0 +1,43 @@
+@import './variables.css';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: var(--font-serif);
+  background-color: var(--page-bg);
+  color: var(--text-dark);
+  line-height: 1.75;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--secondary-hover);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  color: var(--text-dark);
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.4rem; }
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
