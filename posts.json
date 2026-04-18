@@ -1,9 +1,21 @@
 [
   {
+    "slug": "what-copilot-is-becoming",
+    "title": "What Copilot is becoming",
+    "date": "April 15, 2025",
+    "excerpt": "In 2021, when I first told people I was building the AI assistant in Outlook, the response was a polite variation of \"interesting, what does it do.\""
+  },
+  {
     "slug": "samsung-amazon-microsoft-meta-microsoft-again",
     "title": "Samsung, Amazon, Microsoft, Meta, Microsoft again",
     "date": "February 8, 2025",
     "excerpt": "The thing nobody tells you about changing companies is that you keep arriving as a beginner."
+  },
+  {
+    "slug": "why-i-came-back",
+    "title": "Why I came back",
+    "date": "February 4, 2025",
+    "excerpt": "The conversation with the Microsoft team started in November 2024, with a message from my former skip-level, who was now running a broader organization and wanted to talk about the Copilot work."
   },
   {
     "slug": "the-authentication-problem-in-a-virtual-room",
@@ -12,10 +24,52 @@
     "excerpt": "When you put on a VR headset, the familiar anchor points disappear."
   },
   {
+    "slug": "what-it-is-like-to-be-an-ic-again",
+    "title": "What it is like to be an IC again",
+    "date": "September 17, 2024",
+    "excerpt": "The first week of code I wrote at Meta was an authentication middleware layer in Kotlin, and I wrote it alone, on a MacBook Pro that Meta had shipped to the house, sitting at the desk in the home office at about eleven in the morning on a Thursday in February 2024."
+  },
+  {
+    "slug": "the-difference-between-microsoft-and-meta",
+    "title": "The difference between Microsoft and Meta",
+    "date": "June 3, 2024",
+    "excerpt": "The thing you notice first at Meta, coming from Microsoft, is the pace of the document culture."
+  },
+  {
     "slug": "the-first-copilot-feature-nobody-saw",
     "title": "The first Copilot feature nobody saw",
     "date": "January 11, 2024",
     "excerpt": "We shipped a voice assistant into Outlook in 2021 that almost no one used."
+  },
+  {
+    "slug": "why-i-left-microsoft-for-meta",
+    "title": "Why I left Microsoft for Meta",
+    "date": "November 22, 2023",
+    "excerpt": "The honest version of why I left Microsoft in late 2023 is not the version I gave in exit interviews."
+  },
+  {
+    "slug": "what-enterprise-software-is-actually-like-to-build",
+    "title": "What enterprise software is actually like to build",
+    "date": "September 27, 2023",
+    "excerpt": "The first customer advisory board I attended was in 2022, a room in a downtown Seattle hotel where twelve IT administrators from large companies sat at a conference table and told us, politely, about the ways our product had made their lives complicated."
+  },
+  {
+    "slug": "cross-team-dependencies",
+    "title": "Cross-team dependencies",
+    "date": "May 18, 2023",
+    "excerpt": "In the spring of 2023, there was a team whose timeline controlled ours."
+  },
+  {
+    "slug": "writing-a-performance-review",
+    "title": "Writing a performance review",
+    "date": "February 6, 2023",
+    "excerpt": "The Microsoft performance cycle ends in August, and for the three years I was a manager, I started writing reviews in late July, in the hour before the family calls and after the evening's meetings."
+  },
+  {
+    "slug": "the-chatgpt-moment-from-inside-microsoft",
+    "title": "The ChatGPT moment from inside Microsoft",
+    "date": "December 14, 2022",
+    "excerpt": "ChatGPT launched on a Wednesday in November 2022, and by Friday my calendar had three new recurring meetings on it."
   },
   {
     "slug": "what-i-got-wrong-about-being-a-manager-the-first-time",
@@ -30,10 +84,52 @@
     "excerpt": "In early 2020, we were building a voice assistant for Outlook. Nobody called it an AI feature yet."
   },
   {
+    "slug": "the-product-that-almost-shipped",
+    "title": "The product that almost shipped",
+    "date": "June 22, 2022",
+    "excerpt": "We called it Compose, though that was an internal name and it never got an external one, because it never shipped."
+  },
+  {
+    "slug": "letting-someone-go",
+    "title": "Letting someone go",
+    "date": "March 8, 2022",
+    "excerpt": "The conversation had been six weeks in preparation."
+  },
+  {
     "slug": "the-year-i-stopped-writing-code",
     "title": "The year I stopped writing code",
     "date": "November 15, 2021",
     "excerpt": "Somewhere in my second month as a manager, I opened my laptop on a Sunday morning with the intention of writing a small script."
+  },
+  {
+    "slug": "the-first-team-meeting-as-a-manager",
+    "title": "The first team meeting as a manager",
+    "date": "October 4, 2021",
+    "excerpt": "On September 22, 2021, I ran my first team meeting as the official manager of the M365 Copilot mobile experiences team."
+  },
+  {
+    "slug": "the-first-hire",
+    "title": "The first hire",
+    "date": "September 20, 2021",
+    "excerpt": "His name was Karan, and he was a senior engineer at a mid-sized company in Seattle who had been referred to me by someone on the team."
+  },
+  {
+    "slug": "shadowing-my-manager",
+    "title": "Shadowing my manager",
+    "date": "May 12, 2021",
+    "excerpt": "From February to September of 2021, I sat in on my manager David's one-on-ones with the engineers on his team."
+  },
+  {
+    "slug": "what-a-six-pager-teaches-you-about-thinking",
+    "title": "What a six-pager teaches you about thinking",
+    "date": "September 14, 2020",
+    "excerpt": "When I joined Microsoft in March 2020, I brought the six-pager habit the way you bring a coffee order to a new city, assuming it will be readable somewhere."
+  },
+  {
+    "slug": "joining-microsoft-during-covid",
+    "title": "Joining Microsoft during Covid",
+    "date": "April 2, 2020",
+    "excerpt": "My start date at Microsoft was March 16, 2020."
   },
   {
     "slug": "what-it-felt-like-to-ship-to-five-million-people",
@@ -42,15 +138,105 @@
     "excerpt": "The dashboard loaded the same way it always did, slow on the first refresh, faster on the second."
   },
   {
+    "slug": "the-day-we-hit-a-million",
+    "title": "The day we hit a million",
+    "date": "January 20, 2020",
+    "excerpt": "It was a Thursday morning in January 2020, just before I was planning to leave Amazon, and the dashboard was showing just over one million active users for Alexa Hands-Free on Android in India."
+  },
+  {
     "slug": "building-voice-on-a-phone-with-bad-signal",
     "title": "Building voice on a phone with bad signal",
     "date": "November 12, 2019",
     "excerpt": "The assumption baked into every voice assistant I had ever used was that the connection was good."
   },
   {
+    "slug": "amazon-writing-culture",
+    "title": "Amazon's writing culture",
+    "date": "October 14, 2019",
+    "excerpt": "The six-pager is six pages of dense prose, no bullets, no slide decks, no executive summary at the top because the whole document is its own executive summary."
+  },
+  {
+    "slug": "what-amazons-writing-culture-taught-me",
+    "title": "What Amazon's writing culture taught me",
+    "date": "September 8, 2019",
+    "excerpt": "The six-pager is a document you write instead of making slides."
+  },
+  {
+    "slug": "the-hardware-partner-call",
+    "title": "The hardware partner call",
+    "date": "July 28, 2019",
+    "excerpt": "The call came on a Friday afternoon in October 2019, which is the wrong time for a call of this kind."
+  },
+  {
+    "slug": "building-for-india-from-seattle",
+    "title": "Building for India from Seattle",
+    "date": "April 15, 2019",
+    "excerpt": "The apartment in Fremont where I lived in 2019 had a kitchen window that faced east, and some mornings I would stand there with coffee and a phone and be on a call with the partner team in Hyderabad while the light came up over Lake Union."
+  },
+  {
+    "slug": "what-alexa-doesnt-understand",
+    "title": "What Alexa doesn't understand",
+    "date": "November 3, 2018",
+    "excerpt": "In late 2018, the most common failure mode in Alexa on Android was what the team called a false wake."
+  },
+  {
+    "slug": "the-first-week-at-amazon",
+    "title": "The first week at Amazon",
+    "date": "July 9, 2018",
+    "excerpt": "I started at Amazon on a Tuesday in late June 2018, because they had moved my start date back two weeks for onboarding logistics and I had spent those two weeks in my Bellevue apartment reading every public Alexa paper I could find."
+  },
+  {
+    "slug": "what-research-actually-is",
+    "title": "What research actually is",
+    "date": "March 18, 2018",
+    "excerpt": "My second year at USC I worked in the lab of a professor who was studying natural language understanding for low-resource languages."
+  },
+  {
+    "slug": "the-internship-that-changed-direction",
+    "title": "The internship that changed direction",
+    "date": "November 5, 2017",
+    "excerpt": "The summer between my first and second year at USC, I worked at a company in Santa Monica that was building speech interfaces for enterprise software."
+  },
+  {
+    "slug": "los-angeles-as-a-city",
+    "title": "Los Angeles as a city",
+    "date": "July 22, 2017",
+    "excerpt": "The first thing you notice in Los Angeles, if you've spent your whole life in Indian cities, is the absence."
+  },
+  {
+    "slug": "going-back-to-school-at-twenty-four",
+    "title": "Going back to school at twenty-four",
+    "date": "February 14, 2017",
+    "excerpt": "The professor who taught the distributed systems course was already halfway through the syllabus when I realized that the students around me were twenty-one and asking questions I had trained myself out of asking."
+  },
+  {
     "slug": "the-patent-that-started-as-a-side-project",
     "title": "The patent that started as a side project",
     "date": "July 19, 2016",
     "excerpt": "It started because phone notifications were bothering me."
+  },
+  {
+    "slug": "leaving-india-for-the-first-time",
+    "title": "Leaving India for the first time",
+    "date": "June 3, 2016",
+    "excerpt": "My flight was on a Saturday evening in early August, Emirates via Dubai, landing at LAX sometime Sunday local time."
+  },
+  {
+    "slug": "building-something-nobody-asked-for",
+    "title": "Building something nobody asked for",
+    "date": "January 19, 2016",
+    "excerpt": "The notification problem started bothering me in my own life before it became anything else."
+  },
+  {
+    "slug": "what-a-patent-filing-actually-looks-like",
+    "title": "What a patent filing actually looks like",
+    "date": "August 7, 2015",
+    "excerpt": "The lawyer's name was Kiran, and he worked for a firm in Chennai that Samsung retained for IP filings."
+  },
+  {
+    "slug": "the-first-day-at-samsung",
+    "title": "The first day at Samsung",
+    "date": "July 3, 2015",
+    "excerpt": "The Samsung R&D campus in Noida was larger than I had expected, which is a strange thing to notice when you are twenty-two years old and mostly just trying not to look lost."
   }
 ]
