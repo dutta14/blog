@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "samsung-amazon-microsoft-meta-microsoft-again",
+    "title": "Samsung, Amazon, Microsoft, Meta, Microsoft again",
+    "date": "February 8, 2025",
+    "excerpt": "The thing nobody tells you about changing companies is that you keep arriving as a beginner."
+  },
+  {
+    "slug": "the-authentication-problem-in-a-virtual-room",
+    "title": "The authentication problem in a virtual room",
+    "date": "October 3, 2024",
+    "excerpt": "When you put on a VR headset, the familiar anchor points disappear."
+  },
+  {
+    "slug": "the-first-copilot-feature-nobody-saw",
+    "title": "The first Copilot feature nobody saw",
+    "date": "January 11, 2024",
+    "excerpt": "We shipped a voice assistant into Outlook in 2021 that almost no one used."
+  },
+  {
+    "slug": "what-i-got-wrong-about-being-a-manager-the-first-time",
+    "title": "What I got wrong about being a manager the first time",
+    "date": "October 12, 2022",
+    "excerpt": "The first team I managed had four people on it."
+  },
+  {
+    "slug": "being-inside-a-company-when-it-decides-to-change-direction",
+    "title": "Being inside a company when it decides to change direction",
+    "date": "September 22, 2022",
+    "excerpt": "In early 2020, we were building a voice assistant for Outlook. Nobody called it an AI feature yet."
+  },
+  {
+    "slug": "the-year-i-stopped-writing-code",
+    "title": "The year I stopped writing code",
+    "date": "November 15, 2021",
+    "excerpt": "Somewhere in my second month as a manager, I opened my laptop on a Sunday morning with the intention of writing a small script."
+  },
+  {
+    "slug": "what-it-felt-like-to-ship-to-five-million-people",
+    "title": "What it felt like to ship to five million people",
+    "date": "March 15, 2020",
+    "excerpt": "The dashboard loaded the same way it always did, slow on the first refresh, faster on the second."
+  },
+  {
+    "slug": "building-voice-on-a-phone-with-bad-signal",
+    "title": "Building voice on a phone with bad signal",
+    "date": "November 12, 2019",
+    "excerpt": "The assumption baked into every voice assistant I had ever used was that the connection was good."
+  },
+  {
+    "slug": "the-patent-that-started-as-a-side-project",
+    "title": "The patent that started as a side project",
+    "date": "July 19, 2016",
+    "excerpt": "It started because phone notifications were bothering me."
+  }
+]
