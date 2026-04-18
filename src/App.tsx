@@ -8,7 +8,7 @@ import './styles/global.css';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/blog">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
