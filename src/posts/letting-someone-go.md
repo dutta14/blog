@@ -1,6 +1,6 @@
 ---
 title: Letting someone go
-date: March 8, 2022
+date: March 8, 2026
 excerpt: The conversation had been six weeks in preparation.
 ---
 
