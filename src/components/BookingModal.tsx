@@ -22,7 +22,7 @@ const COPY = {
   },
 } as const;
 
-const CALENDAR_URL = 'https://calendar.app.google/PYkNR6MCYbqMiFGM9';
+const CALENDAR_URL = 'https://calendar.app.google/UeHBbGhSZYHaBGMC9';
 const CLOSE_ANIMATION_MS = 150;
 
 export default function BookingModal({
