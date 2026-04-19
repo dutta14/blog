@@ -10,7 +10,7 @@ beforeEach(() => {
 
 afterEach(() => {
   vi.restoreAllMocks();
-  delete (window as Record<string, unknown>).umami;
+  delete (window as unknown as Record<string, unknown>).umami;
 });
 
 /* ── Page structure ─────────────────────────────────────── */

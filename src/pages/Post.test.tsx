@@ -61,7 +61,7 @@ beforeEach(() => {
 });
 
 afterEach(() => {
-  delete (window as Record<string, unknown>).umami;
+  delete (window as unknown as Record<string, unknown>).umami;
 });
 
 describe('Post page', () => {
@@ -162,7 +162,7 @@ describe('Post page', () => {
 
 describe('Post page — analytics tracking', () => {
   afterEach(() => {
-    delete (window as Record<string, unknown>).umami;
+    delete (window as unknown as Record<string, unknown>).umami;
   });
 
   it('renders correctly when window.umami is undefined (script not loaded)', () => {

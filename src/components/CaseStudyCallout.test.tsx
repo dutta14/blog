@@ -4,7 +4,7 @@ import userEvent from '@testing-library/user-event';
 import CaseStudyCallout from './CaseStudyCallout';
 
 afterEach(() => {
-  delete (window as Record<string, unknown>).umami;
+  delete (window as unknown as Record<string, unknown>).umami;
 });
 
 /* ── Rendering for mapped slugs ─────────────────────────── */
