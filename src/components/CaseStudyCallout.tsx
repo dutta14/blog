@@ -30,6 +30,7 @@ export default function CaseStudyCallout({ postSlug }: Props) {
         target="_blank"
         rel="noopener noreferrer"
         aria-label={`View ${caseStudy.title} case study on portfolio site (opens in new tab)`}
+        onClick={() => window.umami?.track('case-study-callout-click', { caseStudy: caseStudy.slug })}
       >
         View case study →
       </a>

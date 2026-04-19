@@ -4,7 +4,7 @@ import { useSearchParams } from 'react-router-dom';
 import { posts, featuredSlugs, TAG_LABELS } from '../data/posts';
 import PostCard from '../components/PostCard';
 import TagPill from '../components/TagPill';
-import FollowSection from '../components/FollowSection';
+import NewsletterCTA from '../components/NewsletterCTA';
 import '../styles/Home.css';
 
 const TAG_KEYS = Object.keys(TAG_LABELS);
@@ -14,6 +14,7 @@ export default function Home() {
   const activeTag = searchParams.get('tag') ?? null;
 
   const handleTagClick = useCallback((tag: string) => {
+    window.umami?.track('tag-filter', { tag });
     setSearchParams(prev => {
       if (prev.get('tag') === tag) {
         prev.delete('tag');
@@ -80,7 +81,7 @@ export default function Home() {
                 </div>
               )}
 
-              {!activeTag && <FollowSection />}
+              {!activeTag && <NewsletterCTA variant="compact" location="home" />}
 
               <h2 className="all-posts-heading" aria-live="polite">{headingText}</h2>
 

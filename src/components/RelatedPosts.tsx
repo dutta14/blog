@@ -47,7 +47,11 @@ export default function RelatedPosts({ current }: Props) {
         <ul className="related-posts-list">
           {related.map(post => (
             <li key={post.slug} className="related-post-card">
-              <Link to={`/post/${post.slug}`} className="related-post-link">
+              <Link
+                to={`/post/${post.slug}`}
+                className="related-post-link"
+                onClick={() => window.umami?.track('related-post-click', { from: current.slug, to: post.slug })}
+              >
                 <span className="related-post-title">{post.title}</span>
                 <span className="related-post-excerpt">{post.excerpt}</span>
                 <span className="related-post-meta">

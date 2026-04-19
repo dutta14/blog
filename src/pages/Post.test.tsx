@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { MemoryRouter, Route, Routes } from 'react-router-dom';
@@ -60,6 +60,10 @@ beforeEach(() => {
   Object.defineProperty(navigator, 'share', { value: undefined, writable: true, configurable: true });
 });
 
+afterEach(() => {
+  delete (window as Record<string, unknown>).umami;
+});
+
 describe('Post page', () => {
   it('shows reading time in the post header', () => {
     renderPostPage('newest-post');
@@ -114,9 +118,9 @@ describe('Post page', () => {
     expect(screen.getByRole('heading', { name: 'Keep reading' })).toBeInTheDocument();
   });
 
-  it('EnjoyedCard renders with RSS link', () => {
+  it('NewsletterCTA renders with RSS link', () => {
     renderPostPage('newest-post');
-    expect(screen.getByText('Enjoyed this?')).toBeInTheDocument();
+    expect(screen.getByText('Prefer RSS?')).toBeInTheDocument();
     expect(screen.getByLabelText('Subscribe via RSS feed')).toBeInTheDocument();
   });
 
@@ -151,5 +155,110 @@ describe('Post page', () => {
   it('shows the post date', () => {
     renderPostPage('newest-post');
     expect(screen.getByText('June 1, 2024')).toBeInTheDocument();
+  });
+});
+
+/* ── Analytics: umami tracking ──────────────────────────── */
+
+describe('Post page — analytics tracking', () => {
+  afterEach(() => {
+    delete (window as Record<string, unknown>).umami;
+  });
+
+  it('renders correctly when window.umami is undefined (script not loaded)', () => {
+    expect(window.umami).toBeUndefined();
+    renderPostPage('newest-post');
+    expect(screen.getByRole('heading', { level: 1, name: 'Newest Post' })).toBeInTheDocument();
+  });
+
+  it('renders correctly when window.umami is defined (script loaded)', () => {
+    window.umami = { track: vi.fn() };
+    renderPostPage('newest-post');
+    expect(screen.getByRole('heading', { level: 1, name: 'Newest Post' })).toBeInTheDocument();
+  });
+
+  it('calls window.umami.track with "post-view" event and correct data when umami is available', () => {
+    const trackFn = vi.fn();
+    window.umami = { track: trackFn };
+    renderPostPage('newest-post');
+    expect(trackFn).toHaveBeenCalledWith('post-view', { slug: 'newest-post', readingTime: 2 });
+  });
+
+  it('does not throw when umami is unavailable and a post is viewed', () => {
+    expect(window.umami).toBeUndefined();
+    expect(() => renderPostPage('newest-post')).not.toThrow();
+  });
+
+  it('does not call track when post is not found', () => {
+    const trackFn = vi.fn();
+    window.umami = { track: trackFn };
+    renderPostPage('nonexistent-slug');
+    expect(trackFn).not.toHaveBeenCalled();
+  });
+});
+
+/* ── "Back to Writing" button ───────────────────────────── */
+
+const mockNavigate = vi.fn();
+
+vi.mock('react-router-dom', async () => {
+  const actual = await vi.importActual<typeof import('react-router-dom')>('react-router-dom');
+  return {
+    ...actual,
+    useNavigate: () => mockNavigate,
+  };
+});
+
+describe('Post page — "Back to Writing" button', () => {
+  beforeEach(() => {
+    mockNavigate.mockClear();
+  });
+
+  it('renders "Back to Writing" as a <button> element', () => {
+    renderPostPage('newest-post');
+    const btn = screen.getByRole('button', { name: 'Back to Writing' });
+    expect(btn).toBeInTheDocument();
+    expect(btn.tagName).toBe('BUTTON');
+  });
+
+  it('clicking "Back to Writing" navigates to "/" with restoreScroll state', async () => {
+    const user = userEvent.setup();
+    renderPostPage('newest-post');
+    await user.click(screen.getByRole('button', { name: 'Back to Writing' }));
+    expect(mockNavigate).toHaveBeenCalledWith('/', { state: { restoreScroll: true } });
+  });
+});
+
+/* ── Hooks ordering: post not found → valid post ────────── */
+
+describe('Post page — hooks ordering safety', () => {
+  it('renders "Post not found" for invalid slug without crashing', () => {
+    renderPostPage('nonexistent-slug');
+    expect(screen.getByText('Post not found.')).toBeInTheDocument();
+  });
+
+  it('handles rendering a valid post after an invalid post without hooks violation', () => {
+    const { unmount } = render(
+      <HelmetProvider>
+        <MemoryRouter initialEntries={['/post/nonexistent-slug']}>
+          <Routes>
+            <Route path="/post/:slug" element={<Post />} />
+          </Routes>
+        </MemoryRouter>
+      </HelmetProvider>
+    );
+    expect(screen.getByText('Post not found.')).toBeInTheDocument();
+    unmount();
+
+    render(
+      <HelmetProvider>
+        <MemoryRouter initialEntries={['/post/newest-post']}>
+          <Routes>
+            <Route path="/post/:slug" element={<Post />} />
+          </Routes>
+        </MemoryRouter>
+      </HelmetProvider>
+    );
+    expect(screen.getByRole('heading', { level: 1, name: 'Newest Post' })).toBeInTheDocument();
   });
 });

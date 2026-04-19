@@ -9,6 +9,10 @@
   color: var(--text-muted);
   margin-bottom: 2.5rem;
   text-decoration: none;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
 }
 
 .post-back:hover {
@@ -297,61 +301,6 @@ body.dark-mode .share-btn:hover {
   .case-study-callout-link {
     margin-top: 8px;
   }
-}
-
-/* Enjoyed card */
-.enjoyed-card {
-  text-align: center;
-  padding: 2.5rem 2rem;
-  margin-top: 2rem;
-  border: 1px solid var(--border-color);
-  border-radius: 6px;
-  background-color: var(--surface);
-}
-
-.enjoyed-card-heading {
-  display: block;
-  font-family: var(--font-serif);
-  font-size: 1.2rem;
-  font-weight: 400;
-  color: var(--text-dark);
-  margin-bottom: 8px;
-}
-
-.enjoyed-card-description {
-  display: block;
-  font-family: var(--font-ui);
-  font-size: 13px;
-  color: var(--text-muted);
-  margin-bottom: 20px;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.enjoyed-card-rss-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-family: var(--font-ui);
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--secondary);
-  text-decoration: none;
-  padding: 8px 20px;
-  border: 1px solid var(--secondary);
-  border-radius: 100px;
-  transition: background-color 150ms ease, color 150ms ease;
-}
-
-.enjoyed-card-rss-link:hover {
-  background-color: var(--secondary);
-  color: var(--surface);
-}
-
-.enjoyed-card-rss-link:focus-visible {
-  outline: 2px solid var(--secondary);
-  outline-offset: 2px;
 }
 
 /* Post navigation */

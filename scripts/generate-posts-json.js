@@ -53,11 +53,16 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://anindya.dev/blog/subscribe</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
 ${sitemapUrls}
 </urlset>`;
 
 writeFileSync(join(__dirname, '../public/sitemap.xml'), sitemap);
-console.log(`Generated sitemap.xml with ${posts.length + 2} URLs`);
+console.log(`Generated sitemap.xml with ${posts.length + 3} URLs`);
 
 const rssItems = posts.slice(0, 20).map(p => `    <item>
       <title>${escapeXml(p.title)}</title>

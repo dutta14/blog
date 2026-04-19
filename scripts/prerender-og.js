@@ -6,7 +6,7 @@
  * Reads the Vite-built dist/index.html, injects per-post meta tags,
  * and writes to dist/post/{slug}/index.html.
  */
-import { readdirSync, readFileSync, writeFileSync, mkdirSync } from 'fs';
+import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -48,6 +48,11 @@ for (const post of posts) {
   const title = escapeHtml(post.title);
   const excerpt = escapeHtml(post.excerpt);
 
+  // Use per-post OG image if it exists, otherwise fall back to generic card
+  const ogImagePath = existsSync(join(distDir, 'og', `${post.slug}.png`))
+    ? `https://anindya.dev/blog/og/${post.slug}.png`
+    : 'https://anindya.dev/img/og-card.png';
+
   // Build the post-specific meta tags
   const metaTags = `
     <title>${title} — Anindya Dutta</title>
@@ -56,12 +61,12 @@ for (const post of posts) {
     <meta property="og:description" content="${excerpt}" />
     <meta property="og:url" content="${url}" />
     <meta property="og:type" content="article" />
-    <meta property="og:image" content="https://anindya.dev/img/og-card.png" />
+    <meta property="og:image" content="${ogImagePath}" />
     <meta property="og:site_name" content="Anindya Dutta" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${title}" />
     <meta name="twitter:description" content="${excerpt}" />
-    <meta name="twitter:image" content="https://anindya.dev/img/og-card.png" />
+    <meta name="twitter:image" content="${ogImagePath}" />
     <link rel="canonical" href="${url}" />`;
 
   // Replace the generic meta tags in the template with post-specific ones

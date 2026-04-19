@@ -45,8 +45,9 @@ vi.mock('../data/posts', () => ({
 describe('Home page', () => {
   it('renders the tag filter bar with 5 tag buttons', () => {
     renderWithRouter(<Home />);
-    const buttons = screen.getAllByRole('button');
-    expect(buttons).toHaveLength(5);
+    const toolbar = screen.getByRole('toolbar', { name: 'Filter posts by topic' });
+    const tagButtons = toolbar.querySelectorAll('button');
+    expect(tagButtons).toHaveLength(5);
     expect(screen.getByRole('button', { name: 'AI Products' })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: 'Leadership' })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: 'Career' })).toBeInTheDocument();
@@ -94,20 +95,20 @@ describe('Home page', () => {
     expect(screen.queryByText('Featured')).not.toBeInTheDocument();
   });
 
-  it('FollowSection renders RSS link on homepage', () => {
+  it('NewsletterCTA compact renders RSS link on homepage', () => {
     renderWithRouter(<Home />);
     expect(screen.getByLabelText('Subscribe via RSS feed')).toBeInTheDocument();
   });
 
-  it('FollowSection hides when a filter is active', async () => {
+  it('NewsletterCTA compact hides when a filter is active', async () => {
     const user = userEvent.setup();
     renderWithRouter(<Home />);
 
-    expect(screen.getByText('Follow along')).toBeInTheDocument();
+    expect(screen.getByText('Stay in the loop')).toBeInTheDocument();
 
     await user.click(screen.getByRole('button', { name: 'Career' }));
 
-    expect(screen.queryByText('Follow along')).not.toBeInTheDocument();
+    expect(screen.queryByText('Stay in the loop')).not.toBeInTheDocument();
   });
 
   it('shows "All Posts" heading by default', () => {
