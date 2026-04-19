@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anindya Dutta</title>
+    <link>https://anindya.dev/blog</link>
+    <description>Essays on engineering, leadership, and building things.</description>
+    <language>en-us</language>
+    <atom:link href="https://anindya.dev/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Letting someone go</title>
+      <link>https://anindya.dev/blog/post/letting-someone-go</link>
+      <guid>https://anindya.dev/blog/post/letting-someone-go</guid>
+      <pubDate>Sun, 08 Mar 2026 08:00:00 GMT</pubDate>
+      <description>The conversation had been six weeks in preparation.</description>
+    </item>
+    <item>
+      <title>What Copilot is becoming</title>
+      <link>https://anindya.dev/blog/post/what-copilot-is-becoming</link>
+      <guid>https://anindya.dev/blog/post/what-copilot-is-becoming</guid>
+      <pubDate>Tue, 15 Apr 2025 07:00:00 GMT</pubDate>
+      <description>In 2021, when I first told people I was building the AI assistant in Outlook, the response was a polite variation of &quot;interesting, what does it do.&quot;</description>
+    </item>
+    <item>
+      <title>Samsung, Amazon, Microsoft, Meta, Microsoft again</title>
+      <link>https://anindya.dev/blog/post/samsung-amazon-microsoft-meta-microsoft-again</link>
+      <guid>https://anindya.dev/blog/post/samsung-amazon-microsoft-meta-microsoft-again</guid>
+      <pubDate>Sat, 08 Feb 2025 08:00:00 GMT</pubDate>
+      <description>The thing nobody tells you about changing companies is that you keep arriving as a beginner.</description>
+    </item>
+    <item>
+      <title>Why I came back</title>
+      <link>https://anindya.dev/blog/post/why-i-came-back</link>
+      <guid>https://anindya.dev/blog/post/why-i-came-back</guid>
+      <pubDate>Tue, 04 Feb 2025 08:00:00 GMT</pubDate>
+      <description>The conversation with the Microsoft team started in November 2024, with a message from my former skip-level, who was now running a broader organization and wanted to talk about the Copilot work.</description>
+    </item>
+    <item>
+      <title>The authentication problem in a virtual room</title>
+      <link>https://anindya.dev/blog/post/the-authentication-problem-in-a-virtual-room</link>
+      <guid>https://anindya.dev/blog/post/the-authentication-problem-in-a-virtual-room</guid>
+      <pubDate>Thu, 03 Oct 2024 07:00:00 GMT</pubDate>
+      <description>When you put on a VR headset, the familiar anchor points disappear.</description>
+    </item>
+    <item>
+      <title>What it is like to be an IC again</title>
+      <link>https://anindya.dev/blog/post/what-it-is-like-to-be-an-ic-again</link>
+      <guid>https://anindya.dev/blog/post/what-it-is-like-to-be-an-ic-again</guid>
+      <pubDate>Tue, 17 Sep 2024 07:00:00 GMT</pubDate>
+      <description>The first week of code I wrote at Meta was an authentication middleware layer in Kotlin, and I wrote it alone, on a MacBook Pro that Meta had shipped to the house, sitting at the desk in the home office at about eleven in the morning on a Thursday in February 2024.</description>
+    </item>
+    <item>
+      <title>The difference between Microsoft and Meta</title>
+      <link>https://anindya.dev/blog/post/the-difference-between-microsoft-and-meta</link>
+      <guid>https://anindya.dev/blog/post/the-difference-between-microsoft-and-meta</guid>
+      <pubDate>Mon, 03 Jun 2024 07:00:00 GMT</pubDate>
+      <description>The thing you notice first at Meta, coming from Microsoft, is the pace of the document culture.</description>
+    </item>
+    <item>
+      <title>The first Copilot feature nobody saw</title>
+      <link>https://anindya.dev/blog/post/the-first-copilot-feature-nobody-saw</link>
+      <guid>https://anindya.dev/blog/post/the-first-copilot-feature-nobody-saw</guid>
+      <pubDate>Thu, 11 Jan 2024 08:00:00 GMT</pubDate>
+      <description>We shipped a voice assistant into Outlook in 2021 that almost no one used.</description>
+    </item>
+    <item>
+      <title>Why I left Microsoft for Meta</title>
+      <link>https://anindya.dev/blog/post/why-i-left-microsoft-for-meta</link>
+      <guid>https://anindya.dev/blog/post/why-i-left-microsoft-for-meta</guid>
+      <pubDate>Wed, 22 Nov 2023 08:00:00 GMT</pubDate>
+      <description>The honest version of why I left Microsoft in late 2023 is not the version I gave in exit interviews.</description>
+    </item>
+    <item>
+      <title>What enterprise software is actually like to build</title>
+      <link>https://anindya.dev/blog/post/what-enterprise-software-is-actually-like-to-build</link>
+      <guid>https://anindya.dev/blog/post/what-enterprise-software-is-actually-like-to-build</guid>
+      <pubDate>Wed, 27 Sep 2023 07:00:00 GMT</pubDate>
+      <description>Enterprise feedback doesn't come to you directly. It comes filtered through your PMs, who heard it from a partner, who heard it from a customer's IT department, three meetings removed from the actual problem.</description>
+    </item>
+    <item>
+      <title>Cross-team dependencies</title>
+      <link>https://anindya.dev/blog/post/cross-team-dependencies</link>
+      <guid>https://anindya.dev/blog/post/cross-team-dependencies</guid>
+      <pubDate>Thu, 18 May 2023 07:00:00 GMT</pubDate>
+      <description>In the spring of 2023, there was a team whose timeline controlled ours.</description>
+    </item>
+    <item>
+      <title>Writing a performance review</title>
+      <link>https://anindya.dev/blog/post/writing-a-performance-review</link>
+      <guid>https://anindya.dev/blog/post/writing-a-performance-review</guid>
+      <pubDate>Mon, 06 Feb 2023 08:00:00 GMT</pubDate>
+      <description>The Microsoft performance cycle ends in August, and for the three years I was a manager, I started writing reviews in late July, in the hour before the family calls and after the evening's meetings.</description>
+    </item>
+    <item>
+      <title>The ChatGPT moment from inside Microsoft</title>
+      <link>https://anindya.dev/blog/post/the-chatgpt-moment-from-inside-microsoft</link>
+      <guid>https://anindya.dev/blog/post/the-chatgpt-moment-from-inside-microsoft</guid>
+      <pubDate>Wed, 14 Dec 2022 08:00:00 GMT</pubDate>
+      <description>ChatGPT launched on a Wednesday in November 2022, and by Friday my calendar had three new recurring meetings on it.</description>
+    </item>
+    <item>
+      <title>What I got wrong about being a manager the first time</title>
+      <link>https://anindya.dev/blog/post/what-i-got-wrong-about-being-a-manager-the-first-time</link>
+      <guid>https://anindya.dev/blog/post/what-i-got-wrong-about-being-a-manager-the-first-time</guid>
+      <pubDate>Wed, 12 Oct 2022 07:00:00 GMT</pubDate>
+      <description>The first team I managed had four people on it.</description>
+    </item>
+    <item>
+      <title>Being inside a company when it decides to change direction</title>
+      <link>https://anindya.dev/blog/post/being-inside-a-company-when-it-decides-to-change-direction</link>
+      <guid>https://anindya.dev/blog/post/being-inside-a-company-when-it-decides-to-change-direction</guid>
+      <pubDate>Thu, 22 Sep 2022 07:00:00 GMT</pubDate>
+      <description>In late 2022 we were building a feature that the company was about to rename, reframe, and put on the front page of everything.</description>
+    </item>
+    <item>
+      <title>The product that almost shipped</title>
+      <link>https://anindya.dev/blog/post/the-product-that-almost-shipped</link>
+      <guid>https://anindya.dev/blog/post/the-product-that-almost-shipped</guid>
+      <pubDate>Wed, 22 Jun 2022 07:00:00 GMT</pubDate>
+      <description>We called it Compose, though that was an internal name and it never got an external one, because it never shipped.</description>
+    </item>
+    <item>
+      <title>The year I stopped writing code</title>
+      <link>https://anindya.dev/blog/post/the-year-i-stopped-writing-code</link>
+      <guid>https://anindya.dev/blog/post/the-year-i-stopped-writing-code</guid>
+      <pubDate>Mon, 15 Nov 2021 08:00:00 GMT</pubDate>
+      <description>Somewhere in my second month as a manager, I opened my laptop on a Sunday morning with the intention of writing a small script.</description>
+    </item>
+    <item>
+      <title>Shadowing my manager</title>
+      <link>https://anindya.dev/blog/post/shadowing-my-manager</link>
+      <guid>https://anindya.dev/blog/post/shadowing-my-manager</guid>
+      <pubDate>Thu, 14 Oct 2021 07:00:00 GMT</pubDate>
+      <description>From February to September of 2021, I sat in on my manager Jim's one-on-ones with the engineers on his team.</description>
+    </item>
+    <item>
+      <title>The first team meeting as a manager</title>
+      <link>https://anindya.dev/blog/post/the-first-team-meeting-as-a-manager</link>
+      <guid>https://anindya.dev/blog/post/the-first-team-meeting-as-a-manager</guid>
+      <pubDate>Mon, 04 Oct 2021 07:00:00 GMT</pubDate>
+      <description>On September 22, 2021, I ran my first team meeting as the official manager of the Outlook Assistant mobile experiences team.</description>
+    </item>
+    <item>
+      <title>The first hire</title>
+      <link>https://anindya.dev/blog/post/the-first-hire</link>
+      <guid>https://anindya.dev/blog/post/the-first-hire</guid>
+      <pubDate>Mon, 20 Sep 2021 07:00:00 GMT</pubDate>
+      <description>His name was Matt, and he was a senior engineer at a mid-sized company in Seattle who had been referred to me by someone on the team.</description>
+    </item>
+  </channel>
+</rss>
