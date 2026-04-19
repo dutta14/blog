@@ -22,14 +22,16 @@ I carried that practice to Microsoft, where documents were primarily PowerPoint 
 `,er=`---
 title: Being inside a company when it decides to change direction
 date: September 22, 2022
-excerpt: In early 2020, we were building a voice assistant for Outlook. Nobody called it an AI feature yet.
+excerpt: In late 2022 we were building a feature that the company was about to rename, reframe, and put on the front page of everything.
 ---
 
-In early 2020, we were building a voice assistant for Outlook. Nobody called it an AI feature yet. We called it the voice assistant. The language models powering it were large and expensive and impressive in demos and deeply unreliable in production, and we were shipping it anyway because we believed something was happening that we couldn't quite name.
+In late 2022 we were building a feature that the company was about to rename, reframe, and put on the front page of everything. We didn't know that yet. We knew something was happening. The investments were moving, the conversations in leadership reviews had a different quality, words like "foundational" were appearing more often. But from where I sat, managing a mobile experiences team inside Outlook, it looked like more of the same urgency we had always operated under.
 
-The company around us had not yet decided what to believe. That is the strange thing about being early inside a large organization with a new idea: you can see the direction more clearly than the people who will eventually fund it, and you spend an unusual amount of your time explaining the present. I gave more slide decks in those two years than in all my previous career combined. The technology was moving faster than the meetings could absorb it.
+Then November happened, and the public saw what we had been circling for two years, and the company decided what it believed. That is the part nobody talks about when they describe a pivot: the actual moment of organizational commitment, when a large institution stops hedging and goes one direction. It is not a gradual thing. It is a switch that flips, and the morning after is different from the morning before in ways that are hard to describe to people who were not inside it.
 
-Then the investments came, and the vocabulary changed, and suddenly everyone was using the word Copilot. The thing we had been building in relative quiet became the name on the product, on the press release, in the keynote. I watched it happen from close enough to feel both proud and slightly anonymous about it.
+Roadmaps changed. Features that had been deprioritized for three quarters suddenly had executive sponsors. Features that had looked permanent were quietly handed off or discontinued. The vocabulary shifted, the meeting cadence changed, and the thing we had been calling a voice assistant became something else with a different name and a larger surface area and a press release I read from a Teams message.
+
+I had been through smaller versions of this before. A product team that lost its executive champion, a feature that got folded into something bigger, a strategy doc that was replaced by a different strategy doc. Those were direction changes on a team scale. This was different. This was the company deciding what it was.
 `,tr=`---
 title: Building for India from Seattle
 date: April 15, 2019
@@ -49,7 +51,7 @@ excerpt: The notification problem started bothering me in my own life before it 
 
 The notification problem started bothering me in my own life before it became anything else. I had a Samsung Galaxy S5 on my desk in the lab, and over the course of a day it would accumulate forty or fifty notifications, most of them useless, all of them demanding the same small piece of attention. The sound was the same whether it was a Swiggy discount code or a message from my mother. I started keeping a notepad of the ones I had actually opened versus the ones I had dismissed without reading. The ratio was about one to seven.
 
-Nobody on the team had asked me to look at this. My actual work in 2014 and early 2015 was a different set of features entirely, maintenance and small improvements to the platform layer. I started sketching the notification system after hours, partly because the problem was interesting and partly because I was twenty-three and had energy in the evenings and the apartment in Koramangala had terrible Wi-Fi and not much else to do. My team lead noticed what I was doing around the third week and didn't discourage me. He didn't encourage me either. He looked at my sketches and said, "put it in the internal system."
+Nobody on the team had asked me to look at this. My actual work in 2014 and early 2015 was a different set of features entirely, maintenance and small improvements to the platform layer. I started sketching the notification system after hours, partly because the problem was interesting and partly because I was twenty-three and had energy in the evenings and the apartment in Kalkaji had terrible Wi-Fi and not much else to do. My team lead noticed what I was doing around the third week and didn't discourage me. He didn't encourage me either. He looked at my sketches and said, "put it in the internal system."
 
 So I put it in the internal system, the one where you submitted ideas that the product team might someday care about. Most things that went into that system disappeared quietly. This one didn't disappear. Two months later, someone from the product organization sent a meeting invite, and we sat in a room with a projector and I walked them through what I had built, and they asked whether it could be done on-device without a cloud dependency, and I said I thought so, and that was how a side project became a feature became a patent filing became the most professionally significant thing I did in Noida. The fact that nobody had asked for it at the beginning was the part I kept thinking about afterward.
 `,rr=`---
@@ -88,10 +90,10 @@ There was also the working-person's lens that I could not turn off. When a profe
 `,or=`---
 title: Joining Microsoft during Covid
 date: April 2, 2020
-excerpt: My start date at Microsoft was March 16, 2020.
+excerpt: My start date at Microsoft was March 9, 2020.
 ---
 
-My start date at Microsoft was March 16, 2020. Two days before that, Seattle had announced that non-essential workers should stay home. The laptop arrived by FedEx in a box that was too large for the laptop, packed with foam corners and a paper onboarding guide that assumed I would be going to an office. There was a section about where to find the good coffee near building 34.
+My start date at Microsoft was March 9, 2020. Six days before that, Seattle had announced that non-essential workers should stay home. The laptop arrived by FedEx in a box that was too large for the laptop, packed with foam corners and a paper onboarding guide that assumed I would be going to an office. There was a section about where to find the good coffee near building 34.
 
 My manager, who I had met exactly once on a video call during the hiring process, sent me a Skype message the morning of day one to say good morning and ask if the laptop had connected to VPN. It had. The first team meeting was eleven people on a screen, half of them in the same city as me, and I had no idea what any of them looked like standing up. We were four months into a product they had been building for a year, and I was catching up on code reviews and design docs while the rest of the city was going quiet outside my apartment window.
 
@@ -104,12 +106,12 @@ excerpt: My flight was on a Saturday evening in early August, Emirates via Dubai
 
 My flight was on a Saturday evening in early August, Emirates via Dubai, landing at LAX sometime Sunday local time. My mother made idlis that morning and then watched me pack the same suitcase for the third time because I kept rearranging it and it kept coming out over the weight limit. She did not say anything about being sad. She asked whether I had packed the converter plugs and whether I remembered that the US used different sockets. I had packed the converter plugs. I did not tell her I had also googled "things to know about living in Los Angeles" at two in the morning the night before.
 
-The terminal at Kempegowda was crowded. My father came with me as far as the departure gate, which in those days you could still do, and we stood in the security line together for twenty minutes. He gave me an envelope with five hundred dollars in cash and said it was for emergencies, and I put it in the inside pocket of my jacket and did not open it for four months. The flight to Dubai was three hours and I did not sleep. The connection was six hours. I ate a shawarma in the terminal, charged my phone, and read two chapters of a book I don't remember anymore.
+The terminal at Netaji Subhas Chandra Bose was crowded. My father dropped me at the entrance. In India you cannot enter the terminal without a ticket, so we said goodbye on the pavement outside the departure doors, next to a trolley someone had abandoned. He gave me an envelope with five hundred dollars in cash and said it was for emergencies, and I put it in the inside pocket of my jacket and did not open it for four months. The flight to Dubai was three hours and I did not sleep. The connection was six hours. I ate a shawarma in the terminal, charged my phone, and read two chapters of a book I don't remember anymore.
 
 LAX on a Sunday afternoon in August is loud in a specific way, the air thick and warm and slightly chemical, and the highway from the airport to the USC area is lined with strip malls and palm trees and signs that feel like they were placed there for a movie about Los Angeles rather than for people who actually live there. I had the address of the university housing office written on a piece of paper in my jacket pocket. I had a student ID number but no physical card yet. I had a phone with a SIM that didn't work here. I stood on the sidewalk outside baggage claim for about four minutes before I figured out how to get a taxi on the app, and then I was in a car moving through a city I did not know, heading toward something I had been thinking about for two years, and it looked nothing like I had imagined.
 `,cr=`---
 title: Letting someone go
-date: March 8, 2022
+date: March 8, 2026
 excerpt: The conversation had been six weeks in preparation.
 ---
 
@@ -142,15 +144,15 @@ I spent time in each of these places trying to figure out what I actually believ
 The one thing that stayed constant was simpler than I expected. The best engineers I worked with, at every single one of those companies, were the ones who cared about the problem more than the process. Everything else was local custom.
 `,dr=`---
 title: Shadowing my manager
-date: May 12, 2021
-excerpt: From February to September of 2021, I sat in on my manager David's one-on-ones with the engineers on his team.
+date: October 14, 2021
+excerpt: From February to September of 2021, I sat in on my manager Jim's one-on-ones with the engineers on his team.
 ---
 
-From February to September of 2021, I sat in on my manager David's one-on-ones with the engineers on his team. Not all of them, and not from the beginning, but starting with his permission and the team's and building up over those months to something like a full picture of how the job worked. He was, and is, one of the better managers I have seen, and one of the reasons I know that is that he agreed to this arrangement without treating it as an audition or a performance. He ran his one-on-ones the same way whether I was in them or not.
+From February to September of 2021, I sat in on my manager Jim's one-on-ones with the engineers on his team. Not all of them, and not from the beginning, but starting with his permission and the team's and building up over those months to something like a full picture of how the job worked. He was, and is, one of the better managers I have seen, and one of the reasons I know that is that he agreed to this arrangement without treating it as an audition or a performance. He ran his one-on-ones the same way whether I was in them or not.
 
 What I noticed first was the silence. He would ask a question and then wait. Not a brief wait, the polite pause before you say the next thing, but an actual wait, ten or fifteen seconds in which the person on the other side of the call filled in the space with something that was usually more honest than their first answer would have been. I tried counting the seconds a few times, looking at the clock in the corner of the Teams window. It was harder than it looked. The silence felt like pressure, and applying it required being comfortable with discomfort in a room where you were the one with more authority, which is a specific skill.
 
-I also noticed that David almost never gave advice in the first ten minutes. He asked questions and listened and asked follow-up questions, and by the time he said anything that could be construed as a suggestion, the person he was talking to had usually arrived at something close to it themselves. I don't know whether he did this intentionally or whether it was just how he thought. I asked him once and he said he wasn't sure either. I tried to copy it when I became a manager in September. I was better at it on some days than others, and I still think about those nine months, sitting in the corner of a Teams call, taking notes on how a good conversation is built.
+I also noticed that Jim almost never gave advice in the first ten minutes. He asked questions and listened and asked follow-up questions, and by the time he said anything that could be construed as a suggestion, the person he was talking to had usually arrived at something close to it themselves. I don't know whether he did this intentionally or whether it was just how he thought. I asked him once and he said he wasn't sure either. I tried to copy it when I became a manager in September. I was better at it on some days than others, and I still think about those nine months, sitting in the corner of a Teams call, taking notes on how a good conversation is built.
 `,fr=`---
 title: The authentication problem in a virtual room
 date: October 3, 2024
@@ -179,9 +181,9 @@ date: January 20, 2020
 excerpt: It was a Thursday morning in January 2020, just before I was planning to leave Amazon, and the dashboard was showing just over one million active users for Alexa Hands-Free on Android in India.
 ---
 
-It was a Thursday morning in January 2020, just before I was planning to leave Amazon, and the dashboard was showing just over one million active users for Alexa Hands-Free on Android in India. Not the five million. That came later, after I had already left. This was the first comma, the moment the number changed shape. Eric sent a message on Chime that said "one million" with no other words. Someone else sent a GIF of a celebration I didn't recognize. A few people added a thumbs-up reaction. The conversation moved on.
+It was a Thursday morning in January 2020, just before I was planning to leave Amazon, and the dashboard was showing just over one million active users for Alexa Hands-Free on Android in India. Not the five million. That came later, after I had already left. This was the first comma, the moment the number changed shape. Abel sent a message on Chime that said "one million" with no other words. Someone else sent a GIF of a celebration I didn't recognize. A few people added a thumbs-up reaction. The conversation moved on.
 
-I remember reading that number on my laptop in the Bellevue office, Building Doppler, on a floor that smelled of fresh coffee and dry-erase markers, and feeling something I would describe, without drama, as gratitude. We had built a product that a million people had chosen to use. Not been assigned. Not coerced. Chosen, on their phones, to let a voice assistant into their mornings or their commutes or their kitchens. A million people I would never meet, in cities I had been to once for a data collection trip or had only looked up on Google Maps.
+I remember reading that number on my laptop in the Day 1 office in Seattle, on a floor that smelled of fresh coffee and dry-erase markers, and feeling something I would describe, without drama, as gratitude. We had built a product that a million people had chosen to use. Not been assigned. Not coerced. Chosen, on their phones, to let a voice assistant into their mornings or their commutes or their kitchens. A million people I would never meet, in cities I had been to once for a data collection trip or had only looked up on Google Maps.
 
 I had a flight to Los Angeles that weekend to see a friend from USC, and I remember sitting on the plane thinking about those million people more than I thought about the product roadmap or the next quarter's goals. This is the thing that the job, when it goes well, can give you: the sense that the code is attached to actual human moments, to someone asking for help with something, to a device that works. The five million eventually got the press mention. The first million was the one I felt, sitting at that desk, on a Thursday morning in January, before any of it had been announced.
 `,hr=`---
@@ -220,25 +222,25 @@ I had come from four years of writing code for grades, where the stakes were a r
 `,vr=`---
 title: The first hire
 date: September 20, 2021
-excerpt: His name was Karan, and he was a senior engineer at a mid-sized company in Seattle who had been referred to me by someone on the team.
+excerpt: His name was Matt, and he was a senior engineer at a mid-sized company in Seattle who had been referred to me by someone on the team.
 ---
 
-His name was Karan, and he was a senior engineer at a mid-sized company in Seattle who had been referred to me by someone on the team. I interviewed him in June 2021, before I was officially a manager, because David had asked me to be part of the loop and I wanted to do it well. I prepared questions the night before on a Google Doc, behavioral and technical and one about how he had handled a project that had gone wrong, because I had been told somewhere that the answer to the question about failure told you more than the answer to the question about success.
+His name was Matt, and he was a senior engineer at a mid-sized company in Seattle who had been referred to me by someone on the team. I interviewed him in June 2021, before I was officially a manager, because Jim had asked me to be part of the loop and I wanted to do it well. I prepared questions the night before on a Word doc, behavioral and technical and one about how he had handled a project that had gone wrong, because I had been told somewhere that the answer to the question about failure told you more than the answer to the question about success.
 
-Karan was measured and specific. He talked about a mobile authentication project that had shipped late because of a dependency that moved, and described the three things he would do differently, naming them in order without hesitation, as though he had thought about this before. I wrote in my notes afterward "specific memory, no blame-shifting, owns the outcome." I don't know why I remember the exact phrasing. The offer went out in July. He accepted on a Thursday evening. I had just officially become a manager the week before.
+Matt was measured and specific. He talked about a mobile authentication project that had shipped late because of a dependency that moved, and described the three things he would do differently, naming them in order without hesitation, as though he had thought about this before. I wrote in my notes afterward "specific memory, no blame-shifting, owns the outcome." I don't know why I remember the exact phrasing. The offer went out in July. He accepted on a Thursday evening. I had just officially become a manager the week before.
 
 The offer call was mine to make. I called his cell, he picked up on the second ring, and I told him we'd love to have him join the team. He said "that's great news" and we talked for about four minutes about start date logistics and I hung up and sat in the apartment for a moment. There was something in it that felt different from any technical decision I had made before. I had decided that this specific person, with this career and these skills and this particular way of naming his mistakes, should spend part of his working life on this team. That is a different kind of weight. I didn't fully understand it until much later.
 `,yr=`---
 title: The first team meeting as a manager
 date: October 4, 2021
-excerpt: On September 22, 2021, I ran my first team meeting as the official manager of the M365 Copilot mobile experiences team.
+excerpt: On September 22, 2021, I ran my first team meeting as the official manager of the Outlook Assistant mobile experiences team.
 ---
 
-On September 22, 2021, I ran my first team meeting as the official manager of the M365 Copilot mobile experiences team, which at that point had four engineers and a design lead and a product manager whose judgment I trusted but whose calendar was shared among three teams. I had prepared. I had a written agenda, which I sent the previous afternoon. I had a note to myself that said "listen more than you talk" which I did not follow as precisely as I intended.
+On September 22, 2021, I ran my first team meeting as the official manager of the Outlook Assistant mobile experiences team, which at that point had four engineers and a design lead and a product manager whose judgment I trusted but whose calendar was shared among three teams. I had prepared. I had a written agenda, which I sent the previous afternoon. I had a note to myself that said "listen more than you talk" which I did not follow as precisely as I intended.
 
 The meeting was on Teams. Seven people, seven rectangles on the screen, a Tuesday morning at ten. I had worked with most of these people for a year. They knew me as an engineer first and a manager second, which I thought would make this easier and which in some ways made it harder, because the transition had to happen in a room where everyone already had a model of what I was, and that model was engineer, and I was now asking them to update it without saying that out loud. I asked about current blockers. I asked about the upcoming sprint review. I told them my one-on-one calendar was open and I'd send invites that afternoon.
 
-Afterward, I talked to David for thirty minutes. He asked how it went. I said fine. He asked what I would do differently. I said I had talked for maybe sixty percent of the time and wanted that number lower. He nodded and asked what I was most uncertain about going into the next week. I told him it was the performance conversations, the ones where I had information about someone's work that I was supposed to translate into useful feedback rather than just observation. He said that gets cleaner with practice. I wrote that down and thought about it for the rest of the day.
+Afterward, I talked to Jim for thirty minutes. He asked how it went. I said fine. He asked what I would do differently. I said I had talked for maybe sixty percent of the time and wanted that number lower. He nodded and asked what I was most uncertain about going into the next week. I told him it was the performance conversations, the ones where I had information about someone's work that I was supposed to translate into useful feedback rather than just observation. He said that gets cleaner with practice. I wrote that down and thought about it for the rest of the day.
 `,br=`---
 title: The first week at Amazon
 date: July 9, 2018
@@ -262,16 +264,16 @@ We pulled in three engineers that evening and started looking at the audio pipel
 
 We had a build with adjusted echo cancellation parameters to the partner team by Sunday. We had three more iterations over the next ten days. The final submission made the deadline by four days. In the end, this kind of work, the unscheduled Friday call, the weekend builds, the back-and-forth over something that should have been caught earlier, was where I felt most useful at Amazon. Not in the planning documents or the all-hands reviews. In the late Friday call where someone needed something fixed and you could either fix it or say it wasn't your problem, and I had learned from the people around me that the first answer was the right one.
 `,Sr=`---
-title: The internship that changed direction
+title: The summer I didn't get an internship
 date: November 5, 2017
-excerpt: The summer between my first and second year at USC, I worked at a company in Santa Monica that was building speech interfaces for enterprise software.
+excerpt: By March of my first year at USC, most people in my cohort had summer internships lined up.
 ---
 
-The summer between my first and second year at USC, I worked at a company in Santa Monica that was building speech interfaces for enterprise software. The office was on the third floor of a building on 4th Street, two blocks from the beach, and the team was eight people in a room that could have held twenty. My manager there, Sarah, had come from the speech team at a larger company and had an opinion about every design decision that she expressed in one sentence, flatly, without warmup. I found this alarming for the first two weeks and then I found it clarifying.
+By March of my first year at USC, most people in my cohort had summer internships lined up. I knew this because they mentioned it in the way people mention things they are trying not to brag about, which is frequently. The Slack channel for the grad program had a thread where people posted their offers, with the company name and the city, and I checked it more than I should have. I had applied to fourteen places. I had heard back from four of them. I had not gotten past the phone screen at any of the four.
 
-The project I worked on was a voice layer for a scheduling tool, a way for a user to say "move my Tuesday three o'clock" and have the system understand not just the words but the calendar state, the user's preferences, the ambiguity in "Tuesday" when the request came in on a Wednesday. The problem was technically interesting in a way that my coursework had not yet touched. We were writing intent recognition logic in Python, and Sarah had me read every paper from Alexa's NLU team that was public, and I spent a weekend in the apartment on 6th Street going through them with a highlighter I had borrowed from my roommate.
+By May I had stopped applying. The recruiting season had a natural end and I had reached it empty-handed. My roommate was going to New York for the summer, to an ad-tech company, and he was excited in the way that made the apartment feel quieter after he left. I enrolled in a machine learning course that ran through July and August instead. It was not a consolation prize I would have chosen.
 
-I went back to USC in September knowing that I wanted to build voice things. Not in an abstract sense. I wanted to build the specific kind of voice thing where the system had to understand context, had to hold something like a model of what the user had meant before, had to be wrong gracefully. That specificity changed which classes I enrolled in that fall and which professors I talked to after lectures and, eventually, which company I applied to when recruiting season started. The internship was eleven weeks. The direction it pointed me in lasted years.
+The course turned out to be the best class I took at USC. Not because of the content, though the content was good, but because I was taking it for no reason except that I wanted to understand the thing. There was no offer riding on it, no networking event attached to it, no story to tell recruiters in the fall. I did the problem sets late at night in the Salvatori lab when it was mostly empty, and I understood things slowly and then quickly and then in a way that felt like it belonged to me rather than to a syllabus. I have thought about that summer often since. Sometimes the thing you didn't get is the thing that teaches you how you actually learn.
 `,Cr=`---
 title: The patent that started as a side project
 date: July 19, 2016
@@ -308,14 +310,14 @@ It took me longer than I'd like to admit to understand that this was fine. That 
 `,Er=`---
 title: What a patent filing actually looks like
 date: August 7, 2015
-excerpt: The lawyer's name was Kiran, and he worked for a firm in Chennai that Samsung retained for IP filings.
+excerpt: The lawyer worked for a firm in Chennai that Samsung retained for IP filings.
 ---
 
-The lawyer's name was Kiran, and he worked for a firm in Chennai that Samsung retained for IP filings. He called me on a Wednesday afternoon in early 2015, about three months after I had submitted the internal invention disclosure form, which I had filled out in a conference room on the fifth floor with my team lead sitting across from me, telling me to write more slowly because what I was describing needed to sound precise. Kiran's voice on the phone was careful and methodical. He wanted to know what, exactly, the system could not do without my specific contribution.
+The lawyer worked for a firm in Chennai that Samsung retained for IP filings. He called me on a Wednesday afternoon in early 2015, about three months after I had submitted the internal invention disclosure form, which I had filled out in a conference room on the fifth floor with my team lead sitting across from me, telling me to write more slowly because what I was describing needed to sound precise. His voice on the phone was careful and methodical. He wanted to know what, exactly, the system could not do without my specific contribution.
 
 That question turned out to be harder than I expected. When you build something, you understand what it does. You have a harder time saying what it uniquely does, what the prior art does not already cover, where the boundary of your idea actually sits. We went through the disclosure together over two calls, and he and his team wrote the first draft of the claims, which arrived in my inbox as a PDF of seventeen pages in a font that felt designed to prevent casual reading. I read it three times on a Sunday. I had described myself in the first claim as "a method for managing notifications on a mobile device," which was technically accurate and stripped of everything that had made building it feel interesting.
 
-The prior art search took six weeks. Kiran sent summaries of related patents, mostly from Apple and Qualcomm, and explained why our approach was distinguishable from each one. The filing went to the USPTO in mid-2015. The first substantive response came back seven months later with a rejection of two claims and a request for amendments. We amended. There was another response. We amended again. The patent issued the following year, by which point I was in Los Angeles and had already left the job, and I found out via an email from Ravi while I was sitting in the Waite Phillips Hall computer lab. I took a screenshot and did not know what to do with it.
+The prior art search took six weeks. He sent summaries of related patents, mostly from Apple and Qualcomm, and explained why our approach was distinguishable from each one. The filing went to the USPTO in mid-2015. The first substantive response came back seven months later with a rejection of two claims and a request for amendments. We amended. There was another response. We amended again. The patent issued the following year, by which point I was in Los Angeles and had already left the job, and I found out via an email from Aman while I was sitting in the Salvatori Computer Science Center, half-reading it between AI assignments. I took a screenshot and did not know what to do with it.
 `,Dr=`---
 title: What a six-pager teaches you about thinking
 date: September 14, 2020
@@ -363,14 +365,16 @@ Now there are users, many of them, and they have opinions, and the opinions come
 `,jr=`---
 title: What enterprise software is actually like to build
 date: September 27, 2023
-excerpt: The first customer advisory board I attended was in 2022, a room in a downtown Seattle hotel where twelve IT administrators from large companies sat at a conference table and told us, politely, about the ways our product had made their lives complicated.
+excerpt: Enterprise feedback doesn't come to you directly. It comes filtered through your PMs, who heard it from a partner, who heard it from a customer's IT department, three meetings removed from the actual problem.
 ---
 
-The first customer advisory board I attended was in 2022, a room in a downtown Seattle hotel where twelve IT administrators from large companies sat at a conference table and told us, politely, about the ways our product had made their lives complicated. Not the end user's life. Their life. The settings page that required domain-level permissions to configure. The audit log that didn't capture the right fields for their compliance team. The update that had gone out without enough notice for them to coordinate their helpdesk ahead of it. I sat at the back of the room and took notes and thought: we had built this for the person using it and had not thought enough about the person administering it.
+Enterprise feedback doesn't come to you directly. It comes filtered through your PMs, who heard it from a partner, who heard it from a customer's IT department, three meetings removed from the actual problem. When a big enterprise partner has feedback, they provide it to our leadership through account teams and PMs, and by the time it reaches the engineers building the feature, it has been translated and summarized and reprioritized. You almost never hear the original sentence. You hear a requirement derived from it.
 
 Enterprise software has a structure that consumer software doesn't, or not in the same way. The person who uses the product and the person who buys the product are almost never the same person. The person who buys it is thinking about security posture and license management and the conversation they will have with the CISO in the quarterly review. The person who uses it is thinking about whether the feature is fast enough that they'll use it instead of the old way. These are not incompatible goals. They require different conversations with different people in the same meeting.
 
-What changed in me after enough of those customer advisory boards was a specific respect for complexity I had been impatient with before. The IT admin with the audit log question was not being difficult. She was responsible for telling a thousand employees what had changed and why, on a Friday afternoon, and she needed the right information to do that. The compliance review that delayed our feature by six weeks was not bureaucracy for its own sake. It was someone asking whether the thing we built would work safely in the kind of environment they had to maintain. I am a better product builder for having been in that room, more than once, listening to the people whose job it was to keep things from breaking.
+What you learn over time is to read backward from the requirement to the actual pain. If the requirement is "audit logs must capture user-level action with a timestamp," the pain is a compliance team that got caught without the right records and had to explain it to someone. If the requirement is "changes must be announced fourteen days in advance," the pain is an IT administrator who had to field three hundred helpdesk tickets on a Monday because an update shipped on Friday. The requirement is clean. The story behind it is usually a bad afternoon for someone doing a job we never fully picture when we build.
+
+I have never sat in a room with an enterprise customer the way people describe in case studies. But we hear from our PMs when something matters to a partner, and I have learned to take those signals seriously. The person who gave that feedback to our leadership, then to our account team, then to our PM, then to our planning doc, had a real problem. By the time it reaches us it looks like a specification. It started as a frustration.
 `,Mr=`---
 title: What I got wrong about being a manager the first time
 date: October 12, 2022
@@ -385,14 +389,14 @@ I figured this out slowly, through mistakes I am not going to catalog here becau
 `,Nr=`---
 title: What it felt like to ship to five million people
 date: March 15, 2020
-excerpt: The dashboard loaded the same way it always did, slow on the first refresh, faster on the second.
+excerpt: I found out about the five million from a LinkedIn message.
 ---
 
-The dashboard loaded the same way it always did, slow on the first refresh, faster on the second. It was a Tuesday in Bangalore, early enough that the city outside was still quiet, and the number sitting in the active users column had a comma in a place it hadn't been the week before. Five million. I stared at it for a moment, waiting to feel something large.
+I found out about the five million from a LinkedIn message. I had already left Amazon by then, two weeks into a new job at Microsoft, still learning the names of people on my new team, and a message arrived from my old manager with a screenshot of a dashboard and a single line: "thought you'd want to see this." The number in the screenshot had a comma in a place it hadn't had when I left. Five million active users. I stared at it for a moment, waiting to feel something large.
 
-The thing about shipping software is that the people using it are invisible to you. You build for an abstraction, a user persona in a product spec, and then one day the abstraction becomes five million actual people on actual trains and buses, saying "Alexa" into their phones on a whim to see what happens. I had spent the better part of a year thinking about network latency in Jaipur and microphone quality in Chennai, and now those people were real and I still didn't know a single one of them.
+The thing about shipping software is that the people using it are invisible to you. You build for an abstraction, a user persona in a product spec, and then one day the abstraction becomes five million actual people on actual trains and buses, saying "Alexa" into their phones on a whim to see what happens. I had spent the better part of a year thinking about network latency in Jaipur and microphone quality in Chennai, and now those people were real and I still didn't know a single one of them, and I was no longer even at the company that had built it.
 
-My manager sent a Chime message that said "nice work." I replied with a thumbs up and went to get coffee.
+I replied to the message with something like "that's incredible, thank you for telling me." I meant it. Then I went back to my new laptop, my new Teams, my new team's standup that was starting in four minutes. The work you do outlasts the role you do it in. I have thought about that often since.
 `,Pr=`---
 title: What it is like to be an IC again
 date: September 17, 2024
@@ -421,9 +425,11 @@ date: February 4, 2025
 excerpt: The conversation with the Microsoft team started in November 2024, with a message from my former skip-level, who was now running a broader organization and wanted to talk about the Copilot work.
 ---
 
-The conversation with the Microsoft team started in November 2024, with a message from my former skip-level, who was now running a broader organization and wanted to talk about the Copilot work. I had a year at Meta behind me and had been thinking about what came next. The message was direct. They were building out the leadership team for M365 Copilot across Outlook, Teams, and Office mobile, and the question was whether I was interested.
+The conversation with the Microsoft team started in November 2024, with a message from my former skip-level, who was now running a broader organization and wanted to talk about the Copilot work. I had a year at Meta behind me and had been thinking about what came next. The message was direct. They were building out the leadership team for M365 Copilot and the question was whether I was interested.
 
-I took three weeks to decide. I talked to David, who had been my manager in the first stint and who I trusted to tell me things I might not want to hear. I looked at what the product had become since I'd left, the user numbers, the feature set, the public roadmap, and thought about whether this was the kind of moment where I wanted to be on the outside watching or on the inside building. The honest answer was that I had been watching from a distance for eleven months and it had been eating at me in a quiet way that I had been choosing not to name.
+I took three weeks to decide. I talked to Jim, who had been my manager in the first stint and who I trusted to tell me things I might not want to hear. I looked at what the product had become since I'd left, the user numbers, the feature set, the public roadmap, and thought about whether this was the kind of moment where I wanted to be on the outside watching or on the inside building. The honest answer was that I had been watching from a distance for eleven months and it had been eating at me in a quiet way that I had been choosing not to name.
+
+The role I came back to was not the one I had left. I was not returning to the mobile team I had built. That work had moved to China while I was gone. I came back to the web team instead, same skip-level above me, different surface area, different set of engineers, a different set of problems. There is something strange about returning to a place that has changed while you were away and finding that you have also changed. You are not picking up where you left off. You are starting again with more context than you had the first time, which is both an advantage and a kind of pressure.
 
 What was different about coming back was the clarity it required. You can join a company the first time on potential and excitement and the general promise of something new. The second time, you are making a choice with more information. You know the culture, you know the process, you know which parts of the job are energizing and which parts are the parts you have to talk yourself through. I came back because the work was real and the team was good and the product was at a moment that doesn't come twice. That is a less romantic reason than I might have offered in 2020. I think it is also a more honest one.
 `,Lr=`---

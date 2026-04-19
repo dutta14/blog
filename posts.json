@@ -1,5 +1,11 @@
 [
   {
+    "slug": "letting-someone-go",
+    "title": "Letting someone go",
+    "date": "March 8, 2026",
+    "excerpt": "The conversation had been six weeks in preparation."
+  },
+  {
     "slug": "what-copilot-is-becoming",
     "title": "What Copilot is becoming",
     "date": "April 15, 2025",
@@ -51,7 +57,7 @@
     "slug": "what-enterprise-software-is-actually-like-to-build",
     "title": "What enterprise software is actually like to build",
     "date": "September 27, 2023",
-    "excerpt": "The first customer advisory board I attended was in 2022, a room in a downtown Seattle hotel where twelve IT administrators from large companies sat at a conference table and told us, politely, about the ways our product had made their lives complicated."
+    "excerpt": "Enterprise feedback doesn't come to you directly. It comes filtered through your PMs, who heard it from a partner, who heard it from a customer's IT department, three meetings removed from the actual problem."
   },
   {
     "slug": "cross-team-dependencies",
@@ -81,7 +87,7 @@
     "slug": "being-inside-a-company-when-it-decides-to-change-direction",
     "title": "Being inside a company when it decides to change direction",
     "date": "September 22, 2022",
-    "excerpt": "In early 2020, we were building a voice assistant for Outlook. Nobody called it an AI feature yet."
+    "excerpt": "In late 2022 we were building a feature that the company was about to rename, reframe, and put on the front page of everything."
   },
   {
     "slug": "the-product-that-almost-shipped",
@@ -90,34 +96,28 @@
     "excerpt": "We called it Compose, though that was an internal name and it never got an external one, because it never shipped."
   },
   {
-    "slug": "letting-someone-go",
-    "title": "Letting someone go",
-    "date": "March 8, 2022",
-    "excerpt": "The conversation had been six weeks in preparation."
-  },
-  {
     "slug": "the-year-i-stopped-writing-code",
     "title": "The year I stopped writing code",
     "date": "November 15, 2021",
     "excerpt": "Somewhere in my second month as a manager, I opened my laptop on a Sunday morning with the intention of writing a small script."
   },
   {
+    "slug": "shadowing-my-manager",
+    "title": "Shadowing my manager",
+    "date": "October 14, 2021",
+    "excerpt": "From February to September of 2021, I sat in on my manager Jim's one-on-ones with the engineers on his team."
+  },
+  {
     "slug": "the-first-team-meeting-as-a-manager",
     "title": "The first team meeting as a manager",
     "date": "October 4, 2021",
-    "excerpt": "On September 22, 2021, I ran my first team meeting as the official manager of the M365 Copilot mobile experiences team."
+    "excerpt": "On September 22, 2021, I ran my first team meeting as the official manager of the Outlook Assistant mobile experiences team."
   },
   {
     "slug": "the-first-hire",
     "title": "The first hire",
     "date": "September 20, 2021",
-    "excerpt": "His name was Karan, and he was a senior engineer at a mid-sized company in Seattle who had been referred to me by someone on the team."
-  },
-  {
-    "slug": "shadowing-my-manager",
-    "title": "Shadowing my manager",
-    "date": "May 12, 2021",
-    "excerpt": "From February to September of 2021, I sat in on my manager David's one-on-ones with the engineers on his team."
+    "excerpt": "His name was Matt, and he was a senior engineer at a mid-sized company in Seattle who had been referred to me by someone on the team."
   },
   {
     "slug": "what-a-six-pager-teaches-you-about-thinking",
@@ -129,13 +129,13 @@
     "slug": "joining-microsoft-during-covid",
     "title": "Joining Microsoft during Covid",
     "date": "April 2, 2020",
-    "excerpt": "My start date at Microsoft was March 16, 2020."
+    "excerpt": "My start date at Microsoft was March 9, 2020."
   },
   {
     "slug": "what-it-felt-like-to-ship-to-five-million-people",
     "title": "What it felt like to ship to five million people",
     "date": "March 15, 2020",
-    "excerpt": "The dashboard loaded the same way it always did, slow on the first refresh, faster on the second."
+    "excerpt": "I found out about the five million from a LinkedIn message."
   },
   {
     "slug": "the-day-we-hit-a-million",
@@ -193,9 +193,9 @@
   },
   {
     "slug": "the-internship-that-changed-direction",
-    "title": "The internship that changed direction",
+    "title": "The summer I didn't get an internship",
     "date": "November 5, 2017",
-    "excerpt": "The summer between my first and second year at USC, I worked at a company in Santa Monica that was building speech interfaces for enterprise software."
+    "excerpt": "By March of my first year at USC, most people in my cohort had summer internships lined up."
   },
   {
     "slug": "los-angeles-as-a-city",
@@ -231,7 +231,7 @@
     "slug": "what-a-patent-filing-actually-looks-like",
     "title": "What a patent filing actually looks like",
     "date": "August 7, 2015",
-    "excerpt": "The lawyer's name was Kiran, and he worked for a firm in Chennai that Samsung retained for IP filings."
+    "excerpt": "The lawyer worked for a firm in Chennai that Samsung retained for IP filings."
   },
   {
     "slug": "the-first-day-at-samsung",
