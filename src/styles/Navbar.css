@@ -37,9 +37,17 @@
 
 .navbar-back {
   font-family: var(--font-ui);
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text-muted);
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2em;
+}
+
+.navbar-back::before {
+  content: '←';
+  font-size: 11px;
 }
 
 .navbar-back:hover {

@@ -1,8 +1,19 @@
+import { Helmet } from 'react-helmet-async';
 import '../styles/About.css';
 
 export default function About() {
   return (
-    <main className="container">
+    <>
+      <Helmet>
+        <title>About — Anindya Dutta</title>
+        <meta name="description" content="I have been writing since 2010, mostly to make sense of things. About Anindya Dutta." />
+        <meta property="og:title" content="About — Anindya Dutta" />
+        <meta property="og:description" content="I have been writing since 2010, mostly to make sense of things." />
+        <meta property="og:url" content="https://anindya.dev/blog/about" />
+        <meta property="og:image" content="https://anindya.dev/img/og-card.png" />
+        <link rel="canonical" href="https://anindya.dev/blog/about" />
+      </Helmet>
+      <main className="container">
       <div className="about-page">
         <h1>About</h1>
         <p>
@@ -27,5 +38,6 @@ export default function About() {
         </p>
       </div>
     </main>
+    </>
   );
 }

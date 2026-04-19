@@ -60,6 +60,25 @@
   color: var(--text-light);
 }
 
+.featured-heading {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.all-posts-heading {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
 .empty-state {
   text-align: center;
   padding: 4rem 0;

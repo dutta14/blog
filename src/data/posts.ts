@@ -34,3 +34,10 @@ export const posts: Post[] = Object.entries(modules)
     };
   })
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+export const featuredSlugs = new Set([
+  'the-chatgpt-moment-from-inside-microsoft',
+  'amazon-writing-culture',
+  'the-first-day-at-samsung',
+  'why-i-left-microsoft-for-meta',
+]);
