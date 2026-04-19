@@ -2,6 +2,7 @@
 title: What Amazon's writing culture taught me
 date: September 8, 2019
 excerpt: The six-pager is a document you write instead of making slides.
+tags: big-tech, building
 ---
 
 The six-pager is a document you write instead of making slides. You print it, hand it to the people in the room, and the first fifteen minutes of the meeting are silent while everyone reads. There is something initially uncomfortable about this, the silence, the sound of paper, the awareness that everyone is reading at a different speed, that can feel theatrical but turns out to be one of the better ideas I have encountered in a corporate context.

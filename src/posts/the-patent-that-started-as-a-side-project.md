@@ -2,6 +2,7 @@
 title: The patent that started as a side project
 date: July 19, 2016
 excerpt: It started because phone notifications were bothering me.
+tags: building
 ---
 
 It started because phone notifications were bothering me. Not in a grand product-vision way. In the way that small persistent irritations start: something was wrong and I had some time and I wanted to see if I could fix it. The phone would buzz for things that didn't matter at moments when they really didn't matter, and ignore things that did, and the logic behind which was which seemed entirely random.

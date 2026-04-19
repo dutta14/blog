@@ -2,6 +2,7 @@
 title: Building for India from Seattle
 date: April 15, 2019
 excerpt: The apartment in Fremont where I lived in 2019 had a kitchen window that faced east, and some mornings I would stand there with coffee and a phone and be on a call with the partner team in Hyderabad while the light came up over Lake Union.
+tags: building
 ---
 
 The apartment in Fremont where I lived in 2019 had a kitchen window that faced east, and some mornings I would stand there with coffee and a phone and be on a call with the partner team in Hyderabad while the light came up over Lake Union in the distance. The time difference was eleven and a half hours. I had learned to schedule the calls for seven-thirty my time, which was seven in the evening there, which was the end of their day and the beginning of mine.

@@ -2,6 +2,7 @@
 title: What I got wrong about being a manager the first time
 date: October 12, 2022
 excerpt: The first team I managed had four people on it.
+tags: engineering-leadership
 ---
 
 The first team I managed had four people on it. I thought my job was to make sure they were unblocked, to remove obstacles, to optimize the system. I held one-on-ones and took notes and tracked action items and did all the things the management books say to do. I was quite efficient about it.

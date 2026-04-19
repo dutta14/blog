@@ -2,6 +2,7 @@
 title: What a patent filing actually looks like
 date: August 7, 2015
 excerpt: The lawyer worked for a firm in Chennai that Samsung retained for IP filings.
+tags: building
 ---
 
 The lawyer worked for a firm in Chennai that Samsung retained for IP filings. He called me on a Wednesday afternoon in early 2015, about three months after I had submitted the internal invention disclosure form, which I had filled out in a conference room on the fifth floor with my team lead sitting across from me, telling me to write more slowly because what I was describing needed to sound precise. His voice on the phone was careful and methodical. He wanted to know what, exactly, the system could not do without my specific contribution.

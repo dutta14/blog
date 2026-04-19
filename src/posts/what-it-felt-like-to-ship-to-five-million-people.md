@@ -2,6 +2,7 @@
 title: What it felt like to ship to five million people
 date: March 15, 2020
 excerpt: I found out about the five million from a LinkedIn message.
+tags: building
 ---
 
 I found out about the five million from a LinkedIn message. I had already left Amazon by then, two weeks into a new job at Microsoft, still learning the names of people on my new team, and a message arrived from my old manager with a screenshot of a dashboard and a single line: "thought you'd want to see this." The number in the screenshot had a comma in a place it hadn't had when I left. Five million active users. I stared at it for a moment, waiting to feel something large.

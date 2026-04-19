@@ -2,6 +2,7 @@
 title: The first Copilot feature nobody saw
 date: January 11, 2024
 excerpt: We shipped a voice assistant into Outlook in 2021 that almost no one used.
+tags: ai-products
 ---
 
 We shipped a voice assistant into Outlook in 2021 that almost no one used. The numbers were small enough that in another context they would have been a failure, and we discussed them in reviews with the careful neutrality of people who had decided not to be discouraged. The model was early. The product was early. We were early in the way that feels lonely until it doesn't.

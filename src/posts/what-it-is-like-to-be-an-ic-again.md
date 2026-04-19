@@ -2,6 +2,7 @@
 title: What it is like to be an IC again
 date: September 17, 2024
 excerpt: The first week of code I wrote at Meta was an authentication middleware layer in Kotlin, and I wrote it alone, on a MacBook Pro that Meta had shipped to the house, sitting at the desk in the home office at about eleven in the morning on a Thursday in February 2024.
+tags: career
 ---
 
 The first week of code I wrote at Meta was an authentication middleware layer in Kotlin, and I wrote it alone, on a MacBook Pro that Meta had shipped to the house, sitting at the desk in the home office at about eleven in the morning on a Thursday in February 2024. I had been a manager for two years and four months. The experience of writing the code was strange in the way that returning to a city you lived in a decade ago is strange: familiar in the structure, different in the furniture.

@@ -2,6 +2,7 @@
 title: Why I left Microsoft for Meta
 date: November 22, 2023
 excerpt: The honest version of why I left Microsoft in late 2023 is not the version I gave in exit interviews.
+tags: career
 ---
 
 The honest version of why I left Microsoft in late 2023 is not the version I gave in exit interviews. The exit interview version was about growth and new challenges and wanting to experience a different kind of organization, all of which was true, but none of which was the first thing I thought about when I was lying awake at two in the morning trying to decide.

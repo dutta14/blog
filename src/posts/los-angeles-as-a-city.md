@@ -2,6 +2,7 @@
 title: Los Angeles as a city
 date: July 22, 2017
 excerpt: The first thing you notice in Los Angeles, if you've spent your whole life in Indian cities, is the absence.
+tags: building
 ---
 
 The first thing you notice in Los Angeles, if you've spent your whole life in Indian cities, is the absence. No one is walking. The sidewalks exist in a kind of formal, unused sense, the way a formal dining room exists in a house where everyone eats in the kitchen. The streets are wide. The buildings are low. The light is different from any light I had known before, a flat, even, everywhere light that makes everything look slightly overexposed, and it takes a few months before you stop squinting and start to think it might be beautiful.

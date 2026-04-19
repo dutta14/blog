@@ -2,6 +2,7 @@
 title: What Alexa doesn't understand
 date: November 3, 2018
 excerpt: In late 2018, the most common failure mode in Alexa on Android was what the team called a false wake.
+tags: ai-products
 ---
 
 In late 2018, the most common failure mode in Alexa on Android was what the team called a false wake, a moment when the device thought it heard "Alexa" but hadn't. The user was not speaking to the device. They were watching television or talking to someone in the room or eating lunch. The device would interrupt. It would play the chime. It would wait. The user would look at the phone with an expression that ranged from mild annoyance to genuine alarm, and then the session would time out and the device would go quiet and nothing would have happened except that the user's trust had been reduced by some small measurable amount.

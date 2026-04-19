@@ -2,6 +2,7 @@
 title: The ChatGPT moment from inside Microsoft
 date: December 14, 2022
 excerpt: ChatGPT launched on a Wednesday in November 2022, and by Friday my calendar had three new recurring meetings on it.
+tags: ai-products
 ---
 
 ChatGPT launched on a Wednesday in November 2022, and by Friday my calendar had three new recurring meetings on it. That is not a complaint. It is just what the inside of a large company looks like when the external world catches up to something you have been building toward for two years.

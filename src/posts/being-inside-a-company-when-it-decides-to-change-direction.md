@@ -2,6 +2,7 @@
 title: Being inside a company when it decides to change direction
 date: September 22, 2022
 excerpt: In late 2022 we were building a feature that the company was about to rename, reframe, and put on the front page of everything.
+tags: big-tech
 ---
 
 In late 2022 we were building a feature that the company was about to rename, reframe, and put on the front page of everything. We didn't know that yet. We knew something was happening. The investments were moving, the conversations in leadership reviews had a different quality, words like "foundational" were appearing more often. But from where I sat, managing a mobile experiences team inside Outlook, it looked like more of the same urgency we had always operated under.

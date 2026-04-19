@@ -2,6 +2,7 @@
 title: The difference between Microsoft and Meta
 date: June 3, 2024
 excerpt: The thing you notice first at Meta, coming from Microsoft, is the pace of the document culture.
+tags: big-tech
 ---
 
 The thing you notice first at Meta, coming from Microsoft, is the pace of the document culture. At Microsoft there is a layered system of review, approval, architecture discussions, and design documentation that accumulates before significant engineering work begins. At Meta the documentation follows the work. Engineers ship a version, the review happens in the diff, the argument is in the commit message and the code review thread. Neither approach is wrong. They are solutions to different organizational problems.

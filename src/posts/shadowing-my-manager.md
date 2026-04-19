@@ -2,6 +2,7 @@
 title: Shadowing my manager
 date: October 14, 2021
 excerpt: From February to September of 2021, I sat in on my manager Jim's one-on-ones with the engineers on his team.
+tags: engineering-leadership
 ---
 
 From February to September of 2021, I sat in on my manager Jim's one-on-ones with the engineers on his team. Not all of them, and not from the beginning, but starting with his permission and the team's and building up over those months to something like a full picture of how the job worked. He was, and is, one of the better managers I have seen, and one of the reasons I know that is that he agreed to this arrangement without treating it as an audition or a performance. He ran his one-on-ones the same way whether I was in them or not.

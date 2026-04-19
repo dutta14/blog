@@ -2,6 +2,7 @@
 title: The year I stopped writing code
 date: November 15, 2021
 excerpt: Somewhere in my second month as a manager, I opened my laptop on a Sunday morning with the intention of writing a small script.
+tags: engineering-leadership
 ---
 
 Somewhere in my second month as a manager, I opened my laptop on a Sunday morning with the intention of writing a small script, something quick to automate a thing that had been bothering me, and I sat there for twenty minutes before closing it again. The cursor blinked in the empty editor and I had nothing. The part of my brain that used to reach for problems the way you reach for a book had quietly gone somewhere else, and I hadn't noticed it leave.

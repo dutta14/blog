@@ -2,6 +2,7 @@
 title: Why I came back
 date: February 4, 2025
 excerpt: The conversation with the Microsoft team started in November 2024, with a message from my former skip-level, who was now running a broader organization and wanted to talk about the Copilot work.
+tags: career
 ---
 
 The conversation with the Microsoft team started in November 2024, with a message from my former skip-level, who was now running a broader organization and wanted to talk about the Copilot work. I had a year at Meta behind me and had been thinking about what came next. The message was direct. They were building out the leadership team for M365 Copilot and the question was whether I was interested.

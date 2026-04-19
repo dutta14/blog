@@ -2,6 +2,7 @@
 title: Joining Microsoft during Covid
 date: April 2, 2020
 excerpt: My start date at Microsoft was March 9, 2020.
+tags: career
 ---
 
 My start date at Microsoft was March 9, 2020. Six days before that, Seattle had announced that non-essential workers should stay home. The laptop arrived by FedEx in a box that was too large for the laptop, packed with foam corners and a paper onboarding guide that assumed I would be going to an office. There was a section about where to find the good coffee near building 34.

@@ -2,6 +2,7 @@
 title: The hardware partner call
 date: July 28, 2019
 excerpt: The call came on a Friday afternoon in October 2019, which is the wrong time for a call of this kind.
+tags: ai-products
 ---
 
 The call came on a Friday afternoon in October 2019, which is the wrong time for a call of this kind. The partner was a hardware company building a smart speaker for the Indian market, and their engineering lead had been up for eighteen hours when he reached me. The wake word detection was failing. Not failing slowly, not degrading at the edges. Failing. Forty percent miss rate on their device in field testing. They were supposed to submit the final build in three weeks.

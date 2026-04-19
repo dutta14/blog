@@ -1,11 +1,39 @@
+import { useCallback } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { posts, featuredSlugs } from '../data/posts';
+import { useSearchParams } from 'react-router-dom';
+import { posts, featuredSlugs, TAG_LABELS } from '../data/posts';
 import PostCard from '../components/PostCard';
+import TagPill from '../components/TagPill';
+import FollowSection from '../components/FollowSection';
 import '../styles/Home.css';
 
+const TAG_KEYS = Object.keys(TAG_LABELS);
+
 export default function Home() {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const activeTag = searchParams.get('tag') ?? null;
+
+  const handleTagClick = useCallback((tag: string) => {
+    setSearchParams(prev => {
+      if (prev.get('tag') === tag) {
+        prev.delete('tag');
+      } else {
+        prev.set('tag', tag);
+      }
+      return prev;
+    });
+  }, [setSearchParams]);
+
   const featured = posts.filter(p => featuredSlugs.has(p.slug));
   const rest = posts.filter(p => !featuredSlugs.has(p.slug));
+
+  const filteredPosts = activeTag
+    ? posts.filter(p => p.tags.includes(activeTag))
+    : rest;
+
+  const headingText = activeTag
+    ? (TAG_LABELS[activeTag] ?? activeTag)
+    : 'All Posts';
 
   return (
     <>
@@ -24,11 +52,24 @@ export default function Home() {
             <h1>Writing</h1>
             <p className="home-subtitle">Essays on engineering, leadership, and building things.</p>
           </div>
+
+          <div className="tag-filter-bar" role="toolbar" aria-label="Filter posts by topic">
+            {TAG_KEYS.map(tag => (
+              <TagPill
+                key={tag}
+                variant="filter"
+                tag={tag}
+                active={activeTag === tag}
+                onClick={handleTagClick}
+              />
+            ))}
+          </div>
+
           {posts.length === 0 ? (
             <p className="empty-state">Nothing here yet. Come back soon.</p>
           ) : (
             <>
-              {featured.length > 0 && (
+              {!activeTag && featured.length > 0 && (
                 <div className="featured-section">
                   <h2 className="featured-heading">Featured</h2>
                   <ul className="post-list">
@@ -38,12 +79,22 @@ export default function Home() {
                   </ul>
                 </div>
               )}
-              <h2 className="all-posts-heading">All Posts</h2>
-              <ul className="post-list">
-                {rest.map(post => (
-                  <PostCard key={post.slug} post={post} />
-                ))}
-              </ul>
+
+              {!activeTag && <FollowSection />}
+
+              <h2 className="all-posts-heading" aria-live="polite">{headingText}</h2>
+
+              {filteredPosts.length > 0 ? (
+                <ul className="post-list">
+                  {filteredPosts.map(post => (
+                    <PostCard key={post.slug} post={post} />
+                  ))}
+                </ul>
+              ) : (
+                <p className="empty-state">
+                  No posts tagged &ldquo;{TAG_LABELS[activeTag!] ?? activeTag}&rdquo; yet. More essays are on the way.
+                </p>
+              )}
             </>
           )}
         </div>

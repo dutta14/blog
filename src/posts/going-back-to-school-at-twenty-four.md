@@ -2,6 +2,7 @@
 title: Going back to school at twenty-four
 date: February 14, 2017
 excerpt: The professor who taught the distributed systems course was already halfway through the syllabus when I realized that the students around me were twenty-one and asking questions I had trained myself out of asking.
+tags: career
 ---
 
 The professor who taught the distributed systems course was already halfway through the syllabus when I realized that the students around me were twenty-one and asking questions I had trained myself out of asking. Not because the questions were bad. Because I had been in a job for two years and had developed the habit of not asking things I thought I should already know, which is a habit that takes effort to unlearn. I was sitting in the third row of a lecture hall in the Thomas Building, October 2016, feeling both too old and too behind simultaneously, which turned out to be a useful combination.

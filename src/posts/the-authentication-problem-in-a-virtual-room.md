@@ -2,6 +2,7 @@
 title: The authentication problem in a virtual room
 date: October 3, 2024
 excerpt: When you put on a VR headset, the familiar anchor points disappear.
+tags: building
 ---
 
 When you put on a VR headset, the familiar anchor points disappear. There is no keyboard. There is no fingerprint reader built into the desk. The face the camera sees is partially obscured by the device you're wearing. At Meta Reality Labs, the team I led was building authentication for Mixed Reality, and almost every assumption I had carried over from twelve years of building on phones and laptops turned out to be wrong in some specific way.

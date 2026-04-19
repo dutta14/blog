@@ -2,6 +2,7 @@
 title: Amazon's writing culture
 date: October 14, 2019
 excerpt: The six-pager is six pages of dense prose, no bullets, no slide decks, no executive summary at the top because the whole document is its own executive summary.
+tags: big-tech, building
 ---
 
 The six-pager is six pages of dense prose, no bullets, no slide decks, no executive summary at the top because the whole document is its own executive summary. You write it before the meeting. Everyone in the meeting reads it at the meeting. Then you have the meeting. I had not encountered this before Amazon, and the first time I watched it happen, in August 2018 in a conference room called "Desk," I sat very still and tried to look like a person who found silence comfortable.

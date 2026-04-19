@@ -2,6 +2,7 @@
 title: The first week at Amazon
 date: July 9, 2018
 excerpt: I started at Amazon on a Tuesday in late June 2018, because they had moved my start date back two weeks for onboarding logistics and I had spent those two weeks in my Bellevue apartment reading every public Alexa paper I could find.
+tags: career
 ---
 
 I started at Amazon on a Tuesday in late June 2018, because they had moved my start date back two weeks for onboarding logistics and I had spent those two weeks in my Bellevue apartment reading every public Alexa paper I could find and telling myself this was preparation when it was mostly anxiety. The office was in the South Lake Union campus, Building Doppler, which I remember as a tall modern building with a coffee shop on the first floor and a lobby desk that scanned your badge with a slight delay that always felt like a test. I had a new badge that I kept checking my pocket for.

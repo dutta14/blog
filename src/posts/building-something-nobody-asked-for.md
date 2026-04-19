@@ -2,6 +2,7 @@
 title: Building something nobody asked for
 date: January 19, 2016
 excerpt: The notification problem started bothering me in my own life before it became anything else.
+tags: building
 ---
 
 The notification problem started bothering me in my own life before it became anything else. I had a Samsung Galaxy S5 on my desk in the lab, and over the course of a day it would accumulate forty or fifty notifications, most of them useless, all of them demanding the same small piece of attention. The sound was the same whether it was a Swiggy discount code or a message from my mother. I started keeping a notepad of the ones I had actually opened versus the ones I had dismissed without reading. The ratio was about one to seven.

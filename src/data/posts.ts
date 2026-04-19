@@ -4,7 +4,16 @@ export interface Post {
   date: string;
   excerpt: string;
   content: string;
+  tags: string[];
 }
+
+export const TAG_LABELS: Record<string, string> = {
+  'ai-products': 'AI Products',
+  'engineering-leadership': 'Leadership',
+  'career': 'Career',
+  'big-tech': 'Big Tech',
+  'building': 'Building',
+};
 
 function parseFrontmatter(raw: string): { data: Record<string, string>; content: string } {
   const match = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
@@ -19,6 +28,11 @@ function parseFrontmatter(raw: string): { data: Record<string, string>; content:
   return { data, content: match[2].trim() };
 }
 
+function parseTags(raw: string | undefined): string[] {
+  if (!raw) return [];
+  return raw.split(',').map(t => t.trim()).filter(Boolean);
+}
+
 const modules = import.meta.glob('../posts/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
 
 export const posts: Post[] = Object.entries(modules)
@@ -31,6 +45,7 @@ export const posts: Post[] = Object.entries(modules)
       date: data.date ?? '',
       excerpt: data.excerpt ?? '',
       content,
+      tags: parseTags(data.tags),
     };
   })
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());

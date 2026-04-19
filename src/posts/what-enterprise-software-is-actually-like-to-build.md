@@ -2,6 +2,7 @@
 title: What enterprise software is actually like to build
 date: September 27, 2023
 excerpt: Enterprise feedback doesn't come to you directly. It comes filtered through your PMs, who heard it from a partner, who heard it from a customer's IT department, three meetings removed from the actual problem.
+tags: ai-products
 ---
 
 Enterprise feedback doesn't come to you directly. It comes filtered through your PMs, who heard it from a partner, who heard it from a customer's IT department, three meetings removed from the actual problem. When a big enterprise partner has feedback, they provide it to our leadership through account teams and PMs, and by the time it reaches the engineers building the feature, it has been translated and summarized and reprioritized. You almost never hear the original sentence. You hear a requirement derived from it.

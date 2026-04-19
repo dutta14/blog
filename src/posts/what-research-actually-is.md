@@ -2,6 +2,7 @@
 title: What research actually is
 date: March 18, 2018
 excerpt: My second year at USC I worked in the lab of a professor who was studying natural language understanding for low-resource languages.
+tags: building
 ---
 
 My second year at USC I worked in the lab of a professor who was studying natural language understanding for low-resource languages, which in practice meant that two PhD students and I were spending a lot of time with very small datasets trying to coax useful signal from noise. The lab was in a basement room in Salvatori Computer Science Center, four desks and a whiteboard that was always half-erased, and the PhD students were kind but distant in the way of people who are deep inside something and don't have much extra attention for the surface. I would come in at ten and leave at seven and go home feeling like I had been very busy doing something that had moved by about a quarter of an inch.

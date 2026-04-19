@@ -2,6 +2,7 @@
 title: What a six-pager teaches you about thinking
 date: September 14, 2020
 excerpt: When I joined Microsoft in March 2020, I brought the six-pager habit the way you bring a coffee order to a new city, assuming it will be readable somewhere.
+tags: big-tech, building
 ---
 
 When I joined Microsoft in March 2020, I brought the six-pager habit the way you bring a coffee order to a new city, assuming it will be readable somewhere. Microsoft ran on PowerPoints. The executive reviews I attended in my first months were forty slides with speaker notes, the argument living in the transitions between slides, the implicit claims hiding behind clean visuals and product screenshots. I could follow the presentations. I often couldn't reconstruct the reasoning afterward.

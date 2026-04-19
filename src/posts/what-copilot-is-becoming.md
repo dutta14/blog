@@ -2,6 +2,7 @@
 title: What Copilot is becoming
 date: April 15, 2025
 excerpt: In 2021, when I first told people I was building the AI assistant in Outlook, the response was a polite variation of "interesting, what does it do."
+tags: ai-products
 ---
 
 In 2021, when I first told people I was building the AI assistant in Outlook, the response was a polite variation of "interesting, what does it do." In 2025, when I tell people I work on Copilot in Outlook, the response is a list of things they have tried, or things they have complaints about, or things they have heard a colleague tried. The product has a name now. Names change the relationship between a thing and the people who might use it.

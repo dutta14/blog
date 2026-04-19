@@ -2,6 +2,7 @@
 title: Building voice on a phone with bad signal
 date: November 12, 2019
 excerpt: The assumption baked into every voice assistant I had ever used was that the connection was good.
+tags: ai-products, building
 ---
 
 The assumption baked into every voice assistant I had ever used was that the connection was good. That the audio would make it through clean, that the server would respond in under two hundred milliseconds, that the pipeline from "Alexa" to answer would be a straight line. That assumption was built for a different country.

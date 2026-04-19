@@ -2,6 +2,7 @@
 title: The summer I didn't get an internship
 date: November 5, 2017
 excerpt: By March of my first year at USC, most people in my cohort had summer internships lined up.
+tags: career
 ---
 
 By March of my first year at USC, most people in my cohort had summer internships lined up. I knew this because they mentioned it in the way people mention things they are trying not to brag about, which is frequently. The Slack channel for the grad program had a thread where people posted their offers, with the company name and the city, and I checked it more than I should have. I had applied to fourteen places. I had heard back from four of them. I had not gotten past the phone screen at any of the four.

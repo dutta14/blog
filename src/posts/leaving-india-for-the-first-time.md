@@ -2,6 +2,7 @@
 title: Leaving India for the first time
 date: June 3, 2016
 excerpt: My flight was on a Saturday evening in early August, Emirates via Dubai, landing at LAX sometime Sunday local time.
+tags: career
 ---
 
 My flight was on a Saturday evening in early August, Emirates via Dubai, landing at LAX sometime Sunday local time. My mother made idlis that morning and then watched me pack the same suitcase for the third time because I kept rearranging it and it kept coming out over the weight limit. She did not say anything about being sad. She asked whether I had packed the converter plugs and whether I remembered that the US used different sockets. I had packed the converter plugs. I did not tell her I had also googled "things to know about living in Los Angeles" at two in the morning the night before.

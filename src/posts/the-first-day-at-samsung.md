@@ -2,6 +2,7 @@
 title: The first day at Samsung
 date: July 3, 2015
 excerpt: The Samsung R&D campus in Noida was larger than I had expected, which is a strange thing to notice when you are twenty-two years old and mostly just trying not to look lost.
+tags: career
 ---
 
 The Samsung R&D campus in Noida was larger than I had expected, which is a strange thing to notice when you are twenty-two years old and mostly just trying not to look lost. I had my badge — the photo slightly worse than my actual face, which is the universal condition of badge photos — and a sheet of paper with a building number on it, and I walked past the rows of parked motorcycles and into a lobby that smelled of air conditioning and new carpet.

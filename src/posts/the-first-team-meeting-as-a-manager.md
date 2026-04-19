@@ -2,6 +2,7 @@
 title: The first team meeting as a manager
 date: October 4, 2021
 excerpt: On September 22, 2021, I ran my first team meeting as the official manager of the Outlook Assistant mobile experiences team.
+tags: engineering-leadership
 ---
 
 On September 22, 2021, I ran my first team meeting as the official manager of the Outlook Assistant mobile experiences team, which at that point had four engineers and a design lead and a product manager whose judgment I trusted but whose calendar was shared among three teams. I had prepared. I had a written agenda, which I sent the previous afternoon. I had a note to myself that said "listen more than you talk" which I did not follow as precisely as I intended.

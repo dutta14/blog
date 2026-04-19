@@ -2,6 +2,7 @@
 title: Letting someone go
 date: March 8, 2026
 excerpt: The conversation had been six weeks in preparation.
+tags: engineering-leadership
 ---
 
 The conversation had been six weeks in preparation. HR was involved from the start, as they should be, and the documentation was careful and accurate and written in a register that felt distant from the actual situation, which was that I was going to tell a person they no longer had a job here, on a Thursday morning at nine o'clock, in a small Teams call with the HR business partner on the line.

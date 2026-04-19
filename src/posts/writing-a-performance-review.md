@@ -2,6 +2,7 @@
 title: Writing a performance review
 date: February 6, 2023
 excerpt: The Microsoft performance cycle ends in August, and for the three years I was a manager, I started writing reviews in late July, in the hour before the family calls and after the evening's meetings.
+tags: engineering-leadership
 ---
 
 The Microsoft performance cycle ends in August, and for the three years I was a manager, I started writing reviews in late July, in the hour before the family calls and after the evening's meetings, sitting at the desk in the home office with the window dark and the document half-finished and the cursor blinking in a way that felt accusatory. The process was not the problem. The problem was the translation.

@@ -2,6 +2,7 @@
 title: The first hire
 date: September 20, 2021
 excerpt: His name was Matt, and he was a senior engineer at a mid-sized company in Seattle who had been referred to me by someone on the team.
+tags: engineering-leadership
 ---
 
 His name was Matt, and he was a senior engineer at a mid-sized company in Seattle who had been referred to me by someone on the team. I interviewed him in June 2021, before I was officially a manager, because Jim had asked me to be part of the loop and I wanted to do it well. I prepared questions the night before on a Word doc, behavioral and technical and one about how he had handled a project that had gone wrong, because I had been told somewhere that the answer to the question about failure told you more than the answer to the question about success.

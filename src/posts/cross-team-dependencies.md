@@ -2,6 +2,7 @@
 title: Cross-team dependencies
 date: May 18, 2023
 excerpt: In the spring of 2023, there was a team whose timeline controlled ours.
+tags: engineering-leadership
 ---
 
 In the spring of 2023, there was a team whose timeline controlled ours. I will not name the team or the feature or the people involved, because none of that is the point and all of them were doing their best. The point is the situation, which was that we had a deliverable that required an API from another group, and that group had their own roadmap, their own stakeholders, their own pressures, and our deliverable was on their list but somewhere in the middle of a list that had things on top of it that mattered more to them than to us.

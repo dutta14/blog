@@ -2,6 +2,7 @@
 title: The product that almost shipped
 date: June 22, 2022
 excerpt: We called it Compose, though that was an internal name and it never got an external one, because it never shipped.
+tags: building
 ---
 
 We called it Compose, though that was an internal name and it never got an external one, because it never shipped. This was in late 2022. The feature was a voice-driven email composition tool for Outlook mobile, a way to speak an email into existence, with the system cleaning up the spoken language into written language, inferring tone from context, drafting a reply that matched what you had said but in the register you would have chosen if you'd had ten more minutes to write it properly. The team had been working on it for four months. The builds were solid. The user testing was encouraging.

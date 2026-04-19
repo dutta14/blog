@@ -2,6 +2,7 @@
 title: The day we hit a million
 date: January 20, 2020
 excerpt: It was a Thursday morning in January 2020, just before I was planning to leave Amazon, and the dashboard was showing just over one million active users for Alexa Hands-Free on Android in India.
+tags: building
 ---
 
 It was a Thursday morning in January 2020, just before I was planning to leave Amazon, and the dashboard was showing just over one million active users for Alexa Hands-Free on Android in India. Not the five million. That came later, after I had already left. This was the first comma, the moment the number changed shape. Abel sent a message on Chime that said "one million" with no other words. Someone else sent a GIF of a celebration I didn't recognize. A few people added a thumbs-up reaction. The conversation moved on.
