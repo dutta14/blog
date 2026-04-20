@@ -50,9 +50,15 @@ export const posts: Post[] = Object.entries(modules)
   })
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
-export const featuredSlugs = new Set([
+export const startHereSlugs = [
   'the-chatgpt-moment-from-inside-microsoft',
   'amazon-writing-culture',
   'the-first-day-at-samsung',
   'why-i-left-microsoft-for-meta',
-]);
+  'the-year-i-stopped-writing-code',
+  'what-enterprise-software-is-actually-like-to-build',
+  'samsung-amazon-microsoft-meta-microsoft-again',
+];
+
+/** @deprecated Use startHereSlugs instead */
+export const featuredSlugs = new Set(startHereSlugs);

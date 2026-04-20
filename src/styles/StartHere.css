@@ -1,0 +1,83 @@
+.start-here {
+  margin-bottom: 3rem;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.start-here-header { margin-bottom: 20px; }
+
+.start-here-heading {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--secondary);
+  margin-bottom: 4px;
+  display: inline-block;
+  position: static;
+  line-height: 1.4;
+}
+
+.start-here-description {
+  font-family: var(--font-ui);
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.start-here-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; }
+.start-here-item { border-top: 1px solid var(--border-color); }
+
+.start-here-link {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 12px 0;
+  text-decoration: none;
+  color: inherit;
+  transition: color 150ms ease;
+}
+
+.start-here-title {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: var(--text-dark);
+  line-height: 1.35;
+  flex-shrink: 0;
+  transition: color 150ms ease;
+}
+
+.start-here-excerpt {
+  font-family: var(--font-ui);
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+.start-here-link:hover .start-here-title { color: var(--secondary); }
+.start-here-link:hover .start-here-excerpt { color: var(--text-light); }
+.start-here-link:focus-visible { outline: 2px solid var(--secondary); outline-offset: 4px; border-radius: 2px; }
+.start-here-link:active { opacity: 0.8; }
+
+body.dark-mode .start-here-excerpt { color: var(--text-light); }
+
+@media (max-width: 768px) {
+  .start-here-link { flex-direction: column; gap: 2px; align-items: flex-start; }
+  .start-here-excerpt { white-space: normal; overflow: visible; text-overflow: unset; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; }
+}
+
+@media (max-width: 480px) {
+  .start-here { padding: 20px 0; margin-bottom: 2.5rem; }
+  .start-here-link { padding: 10px 0; }
+  .start-here-excerpt { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .start-here-title, .start-here-excerpt, .start-here-link { transition-duration: 0.01ms !important; }
+}
