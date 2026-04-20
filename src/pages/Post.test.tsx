@@ -262,3 +262,70 @@ describe('Post page — hooks ordering safety', () => {
     expect(screen.getByRole('heading', { level: 1, name: 'Newest Post' })).toBeInTheDocument();
   });
 });
+
+/* ── New features: ReadingProgress, AuthorCard, JSON-LD, scroll depth ── */
+
+describe('Post page — ReadingProgress component', () => {
+  it('renders a ReadingProgress bar container in post view', () => {
+    renderPostPage('newest-post');
+    const progressBar = document.querySelector('.reading-progress');
+    expect(progressBar).not.toBeNull();
+  });
+
+  it('ReadingProgress is not rendered for not-found posts', () => {
+    renderPostPage('nonexistent-slug');
+    const progressBar = document.querySelector('.reading-progress');
+    expect(progressBar).toBeNull();
+  });
+});
+
+describe('Post page — AuthorCard component', () => {
+  it('renders AuthorCard with author name in post view', () => {
+    renderPostPage('newest-post');
+    expect(screen.getByText('Anindya Dutta')).toBeInTheDocument();
+  });
+
+  it('renders AuthorCard aside with "About the author" label', () => {
+    renderPostPage('newest-post');
+    expect(screen.getByRole('complementary', { name: 'About the author' })).toBeInTheDocument();
+  });
+
+  it('AuthorCard is not rendered for not-found posts', () => {
+    renderPostPage('nonexistent-slug');
+    expect(screen.queryByRole('complementary', { name: 'About the author' })).not.toBeInTheDocument();
+  });
+});
+
+describe('Post page — JSON-LD structured data', () => {
+  it('JSON-LD BlogPosting script present for valid post', () => {
+    renderPostPage('newest-post');
+    const scripts = document.querySelectorAll('script[type="application/ld+json"]');
+    const contents = Array.from(scripts).map(s => s.textContent ?? '');
+    const hasBlogPosting = contents.some(c => c.includes('"BlogPosting"'));
+    expect(hasBlogPosting).toBe(true);
+  });
+
+  it('JSON-LD BreadcrumbList script present for valid post', () => {
+    renderPostPage('newest-post');
+    const scripts = document.querySelectorAll('script[type="application/ld+json"]');
+    const contents = Array.from(scripts).map(s => s.textContent ?? '');
+    const hasBreadcrumb = contents.some(c => c.includes('"BreadcrumbList"'));
+    expect(hasBreadcrumb).toBe(true);
+  });
+
+  it('JSON-LD is not injected for not-found posts', () => {
+    renderPostPage('nonexistent-slug');
+    const scripts = document.querySelectorAll('script[type="application/ld+json"]');
+    const contents = Array.from(scripts).map(s => s.textContent ?? '');
+    const hasBlogPosting = contents.some(c => c.includes('"BlogPosting"'));
+    expect(hasBlogPosting).toBe(false);
+  });
+});
+
+describe('Post page — scroll depth sentinels', () => {
+  it('post body element exists for sentinel attachment', () => {
+    renderPostPage('newest-post');
+    const body = document.querySelector('.post-body');
+    expect(body).not.toBeNull();
+  });
+});
