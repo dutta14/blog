@@ -32,9 +32,12 @@
     <!-- Replace BLOG_WEBSITE_ID with actual ID from Umami dashboard -->
     <script defer src="https://analytics.anindya.dev/script.js" data-website-id="BLOG_WEBSITE_ID"></script>
     <script>
-      if (localStorage.getItem('theme') === 'dark') {
-        document.body.classList.add('dark-mode');
-      }
+      (function() {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.body.classList.add('dark-mode');
+        }
+      })();
     </script>
     <script>
       // Restore path encoded by 404.html
@@ -47,7 +50,7 @@
         }
       })();
     </script>
-    <script type="module" crossorigin src="/blog/assets/index-FOv8SNT-.js"></script>
+    <script type="module" crossorigin src="/blog/assets/index-C89oQfhG.js"></script>
     <link rel="stylesheet" crossorigin href="/blog/assets/index-CAokUGBy.css">
   </head>
   <body>
