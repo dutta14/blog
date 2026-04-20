@@ -13,12 +13,12 @@ export default function ReadingProgress() {
       cancelAnimationFrame(rafRef.current);
       rafRef.current = requestAnimationFrame(() => {
         if (!article) return;
-        const articleTop = article.offsetTop;
-        const articleHeight = article.offsetHeight;
+        const rect = article.getBoundingClientRect();
+        const articleTop = rect.top + window.scrollY;
+        const articleHeight = rect.height;
         const viewportHeight = window.innerHeight;
-        const scrollY = window.scrollY;
 
-        const raw = (scrollY - articleTop) / (articleHeight - viewportHeight);
+        const raw = (window.scrollY - articleTop) / (articleHeight - viewportHeight);
         setProgress(Math.min(1, Math.max(0, raw)));
       });
     }
