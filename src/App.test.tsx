@@ -9,6 +9,7 @@ vi.mock('./data/posts', () => ({
     'ai-products': 'AI Products',
     'career': 'Career',
   },
+  startHereSlugs: [],
   featuredSlugs: new Set([]),
   posts: [
     {

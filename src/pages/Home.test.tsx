@@ -13,6 +13,7 @@ vi.mock('../data/posts', () => ({
     'big-tech': 'Big Tech',
     'building': 'Building',
   },
+  startHereSlugs: ['the-chatgpt-moment-from-inside-microsoft'],
   featuredSlugs: new Set(['featured-post']),
   posts: [
     {
@@ -38,6 +39,22 @@ vi.mock('../data/posts', () => ({
       excerpt: 'Another excerpt',
       content: Array(690).fill('word').join(' '),
       tags: ['ai-products', 'building'],
+    },
+    {
+      slug: 'the-chatgpt-moment-from-inside-microsoft',
+      title: 'The ChatGPT Moment',
+      date: 'March 1, 2024',
+      excerpt: 'ChatGPT excerpt',
+      content: Array(460).fill('word').join(' '),
+      tags: ['ai-products'],
+    },
+    {
+      slug: 'amazon-writing-culture',
+      title: 'Amazon Writing Culture',
+      date: 'February 1, 2024',
+      excerpt: 'Amazon excerpt',
+      content: Array(230).fill('word').join(' '),
+      tags: ['big-tech'],
     },
   ],
 }));
@@ -83,12 +100,16 @@ describe('Home page', () => {
     expect(screen.getByText('Featured Post Title')).toBeInTheDocument();
   });
 
-  it('featured section hides when a filter is active', async () => {
+  it('"Featured" heading is visually hidden (sr-only) when no filter', () => {
+    renderWithRouter(<Home />);
+    const featured = screen.getByText('Featured');
+    expect(featured).toBeInTheDocument();
+    expect(featured.className).toContain('sr-only');
+  });
+
+  it('"Featured" sr-only text hides when a filter is active', async () => {
     const user = userEvent.setup();
     renderWithRouter(<Home />);
-
-    // Featured section should be visible by default
-    expect(screen.getByText('Featured')).toBeInTheDocument();
 
     await user.click(screen.getByRole('button', { name: 'AI Products' }));
 
@@ -123,5 +144,26 @@ describe('Home page', () => {
     await user.click(screen.getByRole('button', { name: 'Career' }));
 
     expect(screen.getByRole('heading', { name: 'Career' })).toBeInTheDocument();
+  });
+
+  it('renders new tagline about building AI for hundreds of millions', () => {
+    renderWithRouter(<Home />);
+    expect(
+      screen.getByText('What building AI for hundreds of millions of people is actually like.')
+    ).toBeInTheDocument();
+  });
+
+  it('StartHere section renders on home page when no tag filter is active', () => {
+    renderWithRouter(<Home />);
+    expect(screen.getByRole('heading', { name: 'Start here' })).toBeInTheDocument();
+  });
+
+  it('StartHere section hides when a tag filter is active', async () => {
+    const user = userEvent.setup();
+    renderWithRouter(<Home />);
+
+    await user.click(screen.getByRole('button', { name: 'Career' }));
+
+    expect(screen.queryByRole('heading', { name: 'Start here' })).not.toBeInTheDocument();
   });
 });

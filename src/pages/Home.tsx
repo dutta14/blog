@@ -1,10 +1,11 @@
 import { useCallback } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useSearchParams } from 'react-router-dom';
-import { posts, featuredSlugs, TAG_LABELS } from '../data/posts';
+import { posts, startHereSlugs, TAG_LABELS } from '../data/posts';
 import PostCard from '../components/PostCard';
 import TagPill from '../components/TagPill';
 import NewsletterCTA from '../components/NewsletterCTA';
+import StartHere from '../components/StartHere';
 import '../styles/Home.css';
 
 const TAG_KEYS = Object.keys(TAG_LABELS);
@@ -25,12 +26,13 @@ export default function Home() {
     });
   }, [setSearchParams]);
 
-  const featured = posts.filter(p => featuredSlugs.has(p.slug));
-  const rest = posts.filter(p => !featuredSlugs.has(p.slug));
+  const startHerePosts = startHereSlugs
+    .map(slug => posts.find(p => p.slug === slug))
+    .filter((p): p is NonNullable<typeof p> => p != null);
 
   const filteredPosts = activeTag
     ? posts.filter(p => p.tags.includes(activeTag))
-    : rest;
+    : posts;
 
   const headingText = activeTag
     ? (TAG_LABELS[activeTag] ?? activeTag)
@@ -40,18 +42,26 @@ export default function Home() {
     <>
       <Helmet>
         <title>Writing — Anindya Dutta</title>
-        <meta name="description" content="Essays on engineering, leadership, and building things. By Anindya Dutta." />
+        <meta name="description" content="Personal essays by Anindya Dutta, Principal SWE Manager at Microsoft building M365 Copilot. On engineering leadership, AI at scale, and career decisions." />
         <meta property="og:title" content="Writing — Anindya Dutta" />
         <meta property="og:description" content="Essays on engineering, leadership, and building things." />
         <meta property="og:url" content="https://anindya.dev/blog" />
         <meta property="og:image" content="https://anindya.dev/img/og-card.png" />
         <link rel="canonical" href="https://anindya.dev/blog" />
+        <script type="application/ld+json">{JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'WebSite',
+          name: 'Anindya Dutta — Writing',
+          url: 'https://anindya.dev/blog',
+          description: 'Essays on engineering leadership, AI product development, and career decisions.',
+          author: { '@type': 'Person', name: 'Anindya Dutta', url: 'https://anindya.dev' },
+        })}</script>
       </Helmet>
       <main className="container">
         <div className="home">
           <div className="home-header">
             <h1>Writing</h1>
-            <p className="home-subtitle">Essays on engineering, leadership, and building things.</p>
+            <p className="home-subtitle">What building AI for hundreds of millions of people is actually like.</p>
           </div>
 
           <div className="tag-filter-bar" role="toolbar" aria-label="Filter posts by topic">
@@ -70,15 +80,11 @@ export default function Home() {
             <p className="empty-state">Nothing here yet. Come back soon.</p>
           ) : (
             <>
-              {!activeTag && featured.length > 0 && (
-                <div className="featured-section">
-                  <h2 className="featured-heading">Featured</h2>
-                  <ul className="post-list">
-                    {featured.map(post => (
-                      <PostCard key={post.slug} post={post} />
-                    ))}
-                  </ul>
-                </div>
+              {!activeTag && (
+                <>
+                  <span className="sr-only">Featured</span>
+                  <StartHere posts={startHerePosts} />
+                </>
               )}
 
               {!activeTag && <NewsletterCTA variant="compact" location="home" />}
