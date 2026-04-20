@@ -1,0 +1,23 @@
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  z-index: 150;
+  pointer-events: none;
+  background: transparent;
+}
+
+.reading-progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: var(--secondary);
+  will-change: width;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reading-progress-bar {
+    will-change: unset;
+  }
+}
