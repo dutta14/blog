@@ -7,6 +7,23 @@ export default function ThemeToggle() {
     setDark(document.body.classList.contains('dark-mode'));
   }, []);
 
+  useEffect(() => {
+    if (localStorage.getItem('theme') !== null) return;
+
+    const mq = window.matchMedia('(prefers-color-scheme: dark)');
+    const handler = (e: MediaQueryListEvent) => {
+      if (e.matches) {
+        document.body.classList.add('dark-mode');
+      } else {
+        document.body.classList.remove('dark-mode');
+      }
+      setDark(e.matches);
+    };
+
+    mq.addEventListener('change', handler);
+    return () => mq.removeEventListener('change', handler);
+  }, []);
+
   const toggle = () => {
     const next = !dark;
     setDark(next);
