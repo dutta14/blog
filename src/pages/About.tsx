@@ -12,11 +12,26 @@ export default function About() {
         <meta property="og:url" content="https://anindya.dev/blog/about" />
         <meta property="og:image" content="https://anindya.dev/img/og-card.png" />
         <link rel="canonical" href="https://anindya.dev/blog/about" />
+        <script type="application/ld+json">{JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Person',
+          name: 'Anindya Dutta',
+          url: 'https://anindya.dev',
+          jobTitle: 'Principal SWE Manager',
+          worksFor: { '@type': 'Organization', name: 'Microsoft' },
+          description: 'Engineering leader and writer. Builds AI products at Microsoft (M365 Copilot). Has been writing since 2010 about engineering, leadership, and building things.',
+          sameAs: [
+            'https://linkedin.com/in/dutta14',
+            'https://github.com/dutta14',
+            'https://anindya.dev/blog',
+          ],
+        })}</script>
       </Helmet>
       <main className="container">
       <div className="about-page">
         <h1>About</h1>
         <p>
+          I lead the team that builds M365 Copilot at Microsoft, the AI inside Outlook, Teams, and Office.{' '}
           I have been writing since 2010, mostly to make sense of things. The cities I have lived in.
           The jobs I have taken. The decisions that seemed obvious at the time and confusing in hindsight,
           or the other way around.
