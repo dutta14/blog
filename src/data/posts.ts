@@ -52,7 +52,7 @@ export const posts: Post[] = Object.entries(modules)
 
 export const startHereSlugs = [
   'the-chatgpt-moment-from-inside-microsoft',
-  'amazon-writing-culture',
+  'managing-someone-who-knows-more-than-you',
   'the-first-day-at-samsung',
   'why-i-left-microsoft-for-meta',
   'the-year-i-stopped-writing-code',

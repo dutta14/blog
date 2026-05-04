@@ -1,0 +1,18 @@
+---
+title: The meeting where the decision was already made
+date: February 3, 2026
+excerpt: The meeting invite arrived at 4 PM on a Thursday, subject line "Direction discussion," with an attendee list that included two directors who had never attended this particular meeting before.
+tags: engineering-leadership, big-tech
+---
+
+The meeting invite arrived at 4 PM on a Thursday, subject line "Direction discussion," with an attendee list that included two directors who had never attended this particular meeting before. I was at my desk, reading through a design document for a feature we had been discussing for three weeks, and I looked at the invite and knew, before I opened it, that the discussion had already happened somewhere else. The meeting was the announcement of the decision, dressed in the language of collaboration.
+
+You learn to read this at large companies the way you learn to read weather. The signals are consistent once you know what to look for. A meeting that is genuinely open-ended has a small attendee list and no pre-written deck. A meeting where the answer has already been decided has senior people who do not usually attend, a carefully prepared presentation, and a section at the end called "discussion" that is allocated exactly seven minutes. The questions that get asked in those seven minutes are people registering their presence, noting for the record that they were in the room when the thing was said.
+
+I have been in dozens of these meetings across four companies. The details change, the architecture of the ritual does not. At Amazon, it took the form of a six-pager that had already been reviewed by the VP, brought into the room as if it were a draft, with comments invited on a document whose final version was already in someone's sent folder. At Microsoft, it was a slide deck with a "proposal" title that used language so specific it could only have come from Legal, which meant it had been through three reviews before anyone on the engineering team saw it. At Meta, to their credit, the gap between the real conversation and the meeting was smaller, but it still existed, usually in the form of a Workplace post that appeared the morning of the meeting, setting the frame before anyone walked in.
+
+The thing that took me years to understand is that this is how large organizations function. A director cannot walk into a room of thirty people and say "I don't know what we should do, let's figure it out together." The room is too large, the stakes are too visible, and the cost of appearing uncertain at that level is real. So the decision gets made in a smaller room, with three or four people, over the course of several conversations, and the larger meeting is the mechanism by which the decision is distributed and understood. The meeting is the place where the decision becomes legible to everyone else.
+
+What this teaches you, if you are paying attention, is where to show up. The decision happens before the meeting. If you want to influence it, you need to be in the room where it is actually being discussed, which is usually a one-on-one, a hallway conversation, a Slack thread between two people who trust each other. By the time the calendar invite goes out with the two directors on it, the window has closed.
+
+I do not say this with cynicism. I say it because understanding this saved me years of frustration. I stopped being surprised when my input in those meetings did not change the outcome. I started having the conversation earlier, with fewer people, in the places where it mattered. The meeting at 4 PM on Thursday became something I could attend calmly, already knowing the answer, asking my one question for the record, and moving on.
