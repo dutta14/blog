@@ -103,4 +103,24 @@ describe('About page', () => {
     expect(heading).not.toBeNull();
     expect(heading!.textContent).toBe('Start here');
   });
+
+  it('renders at most 4 start-here posts even when more slugs exist', () => {
+    renderWithRouter(<About />);
+    expect(startHereSlugs.length).toBeGreaterThan(4);
+    const listItems = document.querySelectorAll('.about-start-here-list li');
+    expect(listItems).toHaveLength(4);
+  });
+
+  it('does not render the 5th start-here slug as a link', () => {
+    renderWithRouter(<About />);
+    const fifthSlug = startHereSlugs[4];
+    const fifthPost = posts.find(p => p.slug === fifthSlug);
+    if (fifthPost) {
+      const startHereSection = document.querySelector('.about-start-here');
+      const linksInSection = startHereSection
+        ? Array.from(startHereSection.querySelectorAll('a')).filter(a => a.textContent === fifthPost.title)
+        : [];
+      expect(linksInSection).toHaveLength(0);
+    }
+  });
 });
