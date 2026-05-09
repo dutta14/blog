@@ -74,6 +74,22 @@ export default function Home() {
                 onClick={handleTagClick}
               />
             ))}
+            {activeTag && (
+              <button
+                className="tag-clear"
+                type="button"
+                aria-label="Clear filter"
+                onClick={() => {
+                  window.umami?.track('tag-clear', { previousTag: activeTag });
+                  setSearchParams(prev => { prev.delete('tag'); return prev; });
+                }}
+              >
+                <svg className="tag-clear-icon" aria-hidden="true" width="14" height="14" viewBox="0 0 14 14">
+                  <path d="M4 4l6 6M10 4l-6 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                </svg>
+                <span className="tag-clear-label">Clear</span>
+              </button>
+            )}
           </div>
 
           {posts.length === 0 ? (
