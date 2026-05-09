@@ -26,6 +26,36 @@
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 2.5rem;
+  position: sticky;
+  top: 56px;
+  z-index: 50;
+  background-color: var(--page-bg);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid transparent;
+  transition: border-color 200ms ease, box-shadow 200ms ease;
+}
+
+.tag-filter-bar--stuck {
+  border-bottom-color: var(--border-color);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+body.dark-mode .tag-filter-bar--stuck {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.tag-filter-sentinel {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tag-filter-bar {
+    transition-duration: 0.01ms !important;
+  }
 }
 
 /* Tag pill — shared */

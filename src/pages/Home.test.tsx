@@ -221,6 +221,19 @@ describe('Home page', () => {
     expect(screen.queryByRole('button', { name: 'Clear filter' })).not.toBeInTheDocument();
   });
 
+  it('renders a sentinel div before the tag filter bar for sticky detection', () => {
+    renderWithRouter(<Home />);
+    const sentinel = document.querySelector('.tag-filter-sentinel');
+    expect(sentinel).not.toBeNull();
+    expect(sentinel!.getAttribute('aria-hidden')).toBe('true');
+  });
+
+  it('tag filter bar has position sticky CSS class', () => {
+    renderWithRouter(<Home />);
+    const toolbar = screen.getByRole('toolbar', { name: 'Filter posts by topic' });
+    expect(toolbar.className).toContain('tag-filter-bar');
+  });
+
   // Post count tests (Issue #3)
   it('post-count span has aria-label with post count', () => {
     renderWithRouter(<Home />);

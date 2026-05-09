@@ -1,4 +1,4 @@
-import { useCallback } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useSearchParams } from 'react-router-dom';
 import { posts, startHereSlugs, TAG_LABELS } from '../data/posts';
@@ -13,6 +13,20 @@ const TAG_KEYS = Object.keys(TAG_LABELS);
 export default function Home() {
   const [searchParams, setSearchParams] = useSearchParams();
   const activeTag = searchParams.get('tag') ?? null;
+  const sentinelRef = useRef<HTMLDivElement>(null);
+  const tagBarRef = useRef<HTMLDivElement>(null);
+  const [isStuck, setIsStuck] = useState(false);
+
+  useEffect(() => {
+    const sentinel = sentinelRef.current;
+    if (!sentinel || typeof IntersectionObserver === 'undefined') return;
+    const observer = new IntersectionObserver(
+      ([entry]) => setIsStuck(!entry.isIntersecting),
+      { threshold: 0 }
+    );
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, []);
 
   const handleTagClick = useCallback((tag: string) => {
     window.umami?.track('tag-filter', { tag });
@@ -64,7 +78,13 @@ export default function Home() {
             <p className="home-subtitle">What building AI for hundreds of millions of people is actually like.</p>
           </div>
 
-          <div className="tag-filter-bar" role="toolbar" aria-label="Filter posts by topic">
+          <div className="tag-filter-sentinel" ref={sentinelRef} aria-hidden="true" />
+          <div
+            className={`tag-filter-bar${isStuck ? ' tag-filter-bar--stuck' : ''}`}
+            ref={tagBarRef}
+            role="toolbar"
+            aria-label="Filter posts by topic"
+          >
             {TAG_KEYS.map(tag => (
               <TagPill
                 key={tag}
