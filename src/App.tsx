@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import ScrollManager from './components/ScrollManager';
 import Navbar from './components/Navbar';
@@ -20,6 +20,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/subscribe" element={<Subscribe />} />
           <Route path="/post/:slug" element={<Post />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <Footer />
       </BrowserRouter>
