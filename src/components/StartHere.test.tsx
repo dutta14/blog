@@ -32,9 +32,18 @@ const mockPosts: Post[] = [
 ];
 
 describe('StartHere', () => {
-  it('renders "Start here" heading', () => {
+  it('renders "Start here" heading with post count', () => {
     renderWithRouter(<StartHere posts={mockPosts} />);
-    expect(screen.getByRole('heading', { name: /Start here/ })).toBeInTheDocument();
+    const heading = screen.getByRole('heading', { name: /Start here/ });
+    expect(heading).toBeInTheDocument();
+    expect(heading.textContent).toContain('(3)');
+  });
+
+  it('post-count span has aria-label with essay count', () => {
+    renderWithRouter(<StartHere posts={mockPosts} />);
+    const countSpan = document.querySelector('.start-here-heading .post-count');
+    expect(countSpan).not.toBeNull();
+    expect(countSpan!.getAttribute('aria-label')).toBe('3 essays');
   });
 
   it('renders description "New to the blog? These essays capture what I write about most."', () => {

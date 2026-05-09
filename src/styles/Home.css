@@ -185,6 +185,14 @@
   margin-bottom: 1rem;
 }
 
+.post-count {
+  font-family: var(--font-ui);
+  font-size: inherit;
+  font-weight: 400;
+  color: var(--text-muted);
+  margin-left: 0.25em;
+}
+
 .empty-state {
   text-align: center;
   padding: 4rem 0;

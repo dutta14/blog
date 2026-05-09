@@ -105,7 +105,12 @@ export default function Home() {
 
               {!activeTag && <NewsletterCTA variant="compact" location="home" />}
 
-              <h2 className="all-posts-heading" aria-live="polite">{headingText}</h2>
+              <h2 className="all-posts-heading" aria-live="polite">
+                {headingText}
+                <span className="post-count" aria-label={`${filteredPosts.length} posts`}>
+                  ({filteredPosts.length})
+                </span>
+              </h2>
 
               {filteredPosts.length > 0 ? (
                 <div className="post-list-grouped">
