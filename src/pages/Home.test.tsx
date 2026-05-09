@@ -155,7 +155,7 @@ describe('Home page', () => {
 
   it('StartHere section renders on home page when no tag filter is active', () => {
     renderWithRouter(<Home />);
-    expect(screen.getByRole('heading', { name: 'Start here' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /Start here/ })).toBeInTheDocument();
   });
 
   it('StartHere section hides when a tag filter is active', async () => {

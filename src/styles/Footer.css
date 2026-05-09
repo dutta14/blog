@@ -5,29 +5,63 @@
   font-family: var(--font-ui);
   font-size: 13px;
   color: var(--text-muted);
-  text-align: center;
+  text-align: left;
 }
 
 .footer-inner {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 16px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.footer-text {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.footer-post-count {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-nav-link {
+  font-size: 13px;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+
+.footer-nav-link:hover {
+  color: var(--secondary);
+}
+
+.footer-nav-link:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 2px;
+}
+
+.footer-nav-link:active {
+  opacity: 0.8;
 }
 
 .footer-rss {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  font-family: var(--font-ui);
-  font-size: 12px;
-  color: var(--text-muted);
-  text-decoration: none;
-  transition: color 150ms ease;
-}
-
-.footer-rss:hover {
-  color: var(--secondary);
 }
 
 .footer-rss svg {
@@ -36,4 +70,16 @@
 
 .footer-rss:hover svg {
   opacity: 1;
+}
+
+@media (max-width: 480px) {
+  .footer-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+  }
+  .footer-left {
+    align-items: center;
+  }
 }

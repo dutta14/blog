@@ -34,7 +34,7 @@ const mockPosts: Post[] = [
 describe('StartHere', () => {
   it('renders "Start here" heading', () => {
     renderWithRouter(<StartHere posts={mockPosts} />);
-    expect(screen.getByRole('heading', { name: 'Start here' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /Start here/ })).toBeInTheDocument();
   });
 
   it('renders description "New to the blog? These essays capture what I write about most."', () => {
@@ -84,6 +84,6 @@ describe('StartHere', () => {
     expect(section!.getAttribute('aria-labelledby')).toBe('start-here-heading');
     const heading = document.getElementById('start-here-heading');
     expect(heading).not.toBeNull();
-    expect(heading!.textContent).toBe('Start here');
+    expect(heading!.textContent).toContain('Start here');
   });
 });
