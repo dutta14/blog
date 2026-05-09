@@ -92,11 +92,27 @@ export default function Home() {
               <h2 className="all-posts-heading" aria-live="polite">{headingText}</h2>
 
               {filteredPosts.length > 0 ? (
-                <ul className="post-list">
-                  {filteredPosts.map(post => (
-                    <PostCard key={post.slug} post={post} />
-                  ))}
-                </ul>
+                <div className="post-list-grouped">
+                  {(() => {
+                    const groups = new Map<number, typeof filteredPosts>();
+                    for (const post of filteredPosts) {
+                      const year = new Date(post.date).getFullYear();
+                      if (!Number.isFinite(year)) continue;
+                      if (!groups.has(year)) groups.set(year, []);
+                      groups.get(year)!.push(post);
+                    }
+                    return Array.from(groups.entries()).map(([year, yearPosts]) => (
+                      <section key={year} className="year-group" aria-labelledby={`year-${year}`}>
+                        <h3 className="year-heading" id={`year-${year}`}>{year}</h3>
+                        <ul className="post-list" role="list">
+                          {yearPosts.map(post => (
+                            <PostCard key={post.slug} post={post} />
+                          ))}
+                        </ul>
+                      </section>
+                    ));
+                  })()}
+                </div>
               ) : (
                 <p className="empty-state">
                   No posts tagged &ldquo;{TAG_LABELS[activeTag!] ?? activeTag}&rdquo; yet. More essays are on the way.

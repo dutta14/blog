@@ -1,7 +1,14 @@
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
+import { posts, startHereSlugs } from '../data/posts';
 import '../styles/About.css';
 
 export default function About() {
+  const startHerePosts = startHereSlugs
+    .slice(0, 4)
+    .map(slug => posts.find(p => p.slug === slug))
+    .filter((p): p is NonNullable<typeof p> => p != null);
+
   return (
     <>
       <Helmet>
@@ -51,6 +58,25 @@ export default function About() {
           If something here stays with you, I am glad. If you want to say something back, you can find
           me at <a href="https://anindya.dev">anindya.dev</a>.
         </p>
+        {startHerePosts.length > 0 && (
+          <section className="about-start-here" aria-labelledby="about-start-here-heading">
+            <h2 className="about-start-here-heading" id="about-start-here-heading">
+              Start here
+            </h2>
+            <p className="about-start-here-description">
+              If you're new, these essays capture what I write about most.
+            </p>
+            <ol className="about-start-here-list">
+              {startHerePosts.map(post => (
+                <li className="about-start-here-item" key={post.slug}>
+                  <Link to={`/post/${post.slug}`} className="about-start-here-link">
+                    {post.title}
+                  </Link>
+                </li>
+              ))}
+            </ol>
+          </section>
+        )}
       </div>
     </main>
     </>

@@ -166,4 +166,28 @@ describe('Home page', () => {
 
     expect(screen.queryByRole('heading', { name: 'Start here' })).not.toBeInTheDocument();
   });
+
+  it('groups posts under year headings (h3)', () => {
+    renderWithRouter(<Home />);
+    const yearHeading = screen.getByRole('heading', { level: 3, name: '2024' });
+    expect(yearHeading).toBeInTheDocument();
+    expect(yearHeading.id).toBe('year-2024');
+  });
+
+  it('year-group sections have aria-labelledby pointing to year heading', () => {
+    renderWithRouter(<Home />);
+    const section = document.querySelector('section.year-group');
+    expect(section).not.toBeNull();
+    expect(section!.getAttribute('aria-labelledby')).toBe('year-2024');
+  });
+
+  it('year groups work with active tag filter', async () => {
+    const user = userEvent.setup();
+    renderWithRouter(<Home />);
+
+    await user.click(screen.getByRole('button', { name: 'Career' }));
+
+    const yearHeading = screen.getByRole('heading', { level: 3, name: '2024' });
+    expect(yearHeading).toBeInTheDocument();
+  });
 });
