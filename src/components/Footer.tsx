@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="footer-inner">
           <div className="footer-left">
             <span className="footer-text">Anindya Dutta</span>
-            <span className="footer-post-count">{posts.length} {posts.length === 1 ? 'essay' : 'essays'} and counting</span>
+            <span className="footer-post-count">{posts.length} {posts.length === 1 ? 'essay' : 'essays'} since {posts.length > 0 ? new Date(posts[posts.length - 1].date).getFullYear() : new Date().getFullYear()}</span>
           </div>
           <nav className="footer-nav" aria-label="Footer navigation">
             <Link to="/" className="footer-nav-link">Writing</Link>

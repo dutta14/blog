@@ -18,13 +18,13 @@ vi.mock('../data/posts', () => ({
 const { default: Footer } = await import('./Footer');
 
 describe('Footer — singular essay count', () => {
-  it('renders "1 essay and counting" when there is exactly one post', () => {
+  it('renders "1 essay since 2024" when there is exactly one post', () => {
     renderWithRouter(<Footer />);
-    expect(screen.getByText('1 essay and counting')).toBeInTheDocument();
+    expect(screen.getByText('1 essay since 2024')).toBeInTheDocument();
   });
 
   it('does not render "essays" (plural) when count is 1', () => {
     renderWithRouter(<Footer />);
-    expect(screen.queryByText(/essays and counting/)).not.toBeInTheDocument();
+    expect(screen.queryByText(/essays since/)).not.toBeInTheDocument();
   });
 });

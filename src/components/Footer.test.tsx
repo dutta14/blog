@@ -22,10 +22,11 @@ describe('Footer', () => {
     expect(screen.getByRole('contentinfo')).toBeInTheDocument();
   });
 
-  it('renders dynamic post count with "essays and counting"', () => {
+  it('renders dynamic post count with "essays since" earliest year', () => {
     renderWithRouter(<Footer />);
+    const earliestYear = new Date(posts[posts.length - 1].date).getFullYear();
     expect(
-      screen.getByText(`${posts.length} essays and counting`)
+      screen.getByText(`${posts.length} essays since ${earliestYear}`)
     ).toBeInTheDocument();
   });
 
