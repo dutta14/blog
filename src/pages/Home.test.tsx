@@ -132,18 +132,22 @@ describe('Home page', () => {
     expect(screen.queryByText('Stay in the loop')).not.toBeInTheDocument();
   });
 
-  it('shows "All Posts" heading by default', () => {
+  it('shows "All Posts" heading with count by default', () => {
     renderWithRouter(<Home />);
-    expect(screen.getByRole('heading', { name: 'All Posts' })).toBeInTheDocument();
+    const heading = screen.getByRole('heading', { level: 2, name: /All Posts/ });
+    expect(heading).toBeInTheDocument();
+    expect(heading.textContent).toContain('(5)');
   });
 
-  it('shows filtered tag name as heading when filter is active', async () => {
+  it('shows filtered tag name with count as heading when filter is active', async () => {
     const user = userEvent.setup();
     renderWithRouter(<Home />);
 
     await user.click(screen.getByRole('button', { name: 'Career' }));
 
-    expect(screen.getByRole('heading', { name: 'Career' })).toBeInTheDocument();
+    const heading = screen.getByRole('heading', { level: 2, name: /Career/ });
+    expect(heading).toBeInTheDocument();
+    expect(heading.textContent).toContain('(1)');
   });
 
   it('renders new tagline about building AI for hundreds of millions', () => {
@@ -189,5 +193,51 @@ describe('Home page', () => {
 
     const yearHeading = screen.getByRole('heading', { level: 3, name: '2024' });
     expect(yearHeading).toBeInTheDocument();
+  });
+
+  it('does not show Clear button when no filter is active', () => {
+    renderWithRouter(<Home />);
+    expect(screen.queryByRole('button', { name: 'Clear filter' })).not.toBeInTheDocument();
+  });
+
+  it('shows Clear button when a tag filter is active', async () => {
+    const user = userEvent.setup();
+    renderWithRouter(<Home />);
+
+    await user.click(screen.getByRole('button', { name: 'Career' }));
+
+    expect(screen.getByRole('button', { name: 'Clear filter' })).toBeInTheDocument();
+  });
+
+  it('clicking Clear button removes the filter and shows all posts', async () => {
+    const user = userEvent.setup();
+    renderWithRouter(<Home />);
+
+    await user.click(screen.getByRole('button', { name: 'Career' }));
+    expect(screen.queryByText('Featured Post Title')).not.toBeInTheDocument();
+
+    await user.click(screen.getByRole('button', { name: 'Clear filter' }));
+    expect(screen.getByText('Featured Post Title')).toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: 'Clear filter' })).not.toBeInTheDocument();
+  });
+
+  // Post count tests (Issue #3)
+  it('post-count span has aria-label with post count', () => {
+    renderWithRouter(<Home />);
+    const countSpan = document.querySelector('.all-posts-heading .post-count');
+    expect(countSpan).not.toBeNull();
+    expect(countSpan!.getAttribute('aria-label')).toBe('5 posts');
+  });
+
+  it('post count updates when filter changes', async () => {
+    const user = userEvent.setup();
+    renderWithRouter(<Home />);
+
+    await user.click(screen.getByRole('button', { name: 'AI Products' }));
+
+    const countSpan = document.querySelector('.all-posts-heading .post-count');
+    expect(countSpan).not.toBeNull();
+    expect(countSpan!.textContent).toBe('(3)');
+    expect(countSpan!.getAttribute('aria-label')).toBe('3 posts');
   });
 });
