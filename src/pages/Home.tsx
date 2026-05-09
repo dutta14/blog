@@ -127,9 +127,10 @@ export default function Home() {
 
               <h2 className="all-posts-heading" aria-live="polite">
                 {headingText}
-                <span className="post-count" aria-label={`${filteredPosts.length} posts`}>
+                <span className="post-count" aria-hidden="true">
                   ({filteredPosts.length})
                 </span>
+                <span className="sr-only">{filteredPosts.length} posts</span>
               </h2>
 
               {filteredPosts.length > 0 ? (

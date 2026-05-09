@@ -14,9 +14,10 @@ export default function StartHere({ posts }: Props) {
       <div className="start-here-header">
         <h2 className="start-here-heading" id="start-here-heading">
           Start here
-          <span className="post-count" aria-label={`${posts.length} essays`}>
+          <span className="post-count" aria-hidden="true">
             ({posts.length})
           </span>
+          <span className="sr-only">{posts.length} essays</span>
         </h2>
         <p className="start-here-description">
           New to the blog? These essays capture what I write about most.

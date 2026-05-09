@@ -39,11 +39,14 @@ describe('StartHere', () => {
     expect(heading.textContent).toContain('(3)');
   });
 
-  it('post-count span has aria-label with essay count', () => {
+  it('post-count span is aria-hidden with sr-only text for screen readers', () => {
     renderWithRouter(<StartHere posts={mockPosts} />);
     const countSpan = document.querySelector('.start-here-heading .post-count');
     expect(countSpan).not.toBeNull();
-    expect(countSpan!.getAttribute('aria-label')).toBe('3 essays');
+    expect(countSpan!.getAttribute('aria-hidden')).toBe('true');
+    const srOnly = document.querySelector('.start-here-heading .sr-only');
+    expect(srOnly).not.toBeNull();
+    expect(srOnly!.textContent).toBe('3 essays');
   });
 
   it('renders description "New to the blog? These essays capture what I write about most."', () => {

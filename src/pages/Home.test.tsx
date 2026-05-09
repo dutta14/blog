@@ -235,11 +235,14 @@ describe('Home page', () => {
   });
 
   // Post count tests (Issue #3)
-  it('post-count span has aria-label with post count', () => {
+  it('post-count span is aria-hidden with sr-only text for screen readers', () => {
     renderWithRouter(<Home />);
     const countSpan = document.querySelector('.all-posts-heading .post-count');
     expect(countSpan).not.toBeNull();
-    expect(countSpan!.getAttribute('aria-label')).toBe('5 posts');
+    expect(countSpan!.getAttribute('aria-hidden')).toBe('true');
+    const srOnly = document.querySelector('.all-posts-heading .sr-only');
+    expect(srOnly).not.toBeNull();
+    expect(srOnly!.textContent).toBe('5 posts');
   });
 
   it('post count updates when filter changes', async () => {
@@ -250,7 +253,9 @@ describe('Home page', () => {
 
     const countSpan = document.querySelector('.all-posts-heading .post-count');
     expect(countSpan).not.toBeNull();
-    expect(countSpan!.textContent).toBe('(3)');
-    expect(countSpan!.getAttribute('aria-label')).toBe('3 posts');
+    expect(countSpan!.textContent).toContain('(3)');
+    const srOnly = document.querySelector('.all-posts-heading .sr-only');
+    expect(srOnly).not.toBeNull();
+    expect(srOnly!.textContent).toBe('3 posts');
   });
 });

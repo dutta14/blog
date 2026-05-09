@@ -53,7 +53,9 @@ body.dark-mode .tag-filter-bar--stuck {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .tag-filter-bar {
+  .tag-filter-bar,
+  .tag-pill,
+  .tag-clear {
     transition-duration: 0.01ms !important;
   }
 }

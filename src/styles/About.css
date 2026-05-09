@@ -84,3 +84,9 @@
 .about-start-here-link:active {
   opacity: 0.8;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .about-start-here-link {
+    transition-duration: 0.01ms !important;
+  }
+}

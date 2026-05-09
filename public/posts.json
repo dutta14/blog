@@ -1,9 +1,39 @@
 [
   {
+    "slug": "managing-someone-who-knows-more-than-you",
+    "title": "Managing someone who knows more than you",
+    "date": "April 30, 2026",
+    "excerpt": "It was my third week as a manager, a Thursday afternoon one-on-one with D, who had been on the team for four years and knew every service, every dependency, every reason behind every strange decision in the codebase."
+  },
+  {
     "slug": "letting-someone-go",
     "title": "Letting someone go",
     "date": "March 8, 2026",
     "excerpt": "The conversation had been six weeks in preparation."
+  },
+  {
+    "slug": "the-meeting-where-the-decision-was-already-made",
+    "title": "The meeting where the decision was already made",
+    "date": "February 3, 2026",
+    "excerpt": "The meeting invite arrived at 4 PM on a Thursday, subject line \"Direction discussion,\" with an attendee list that included two directors who had never attended this particular meeting before."
+  },
+  {
+    "slug": "reading-someone-elses-code",
+    "title": "Reading someone else's code",
+    "date": "November 22, 2025",
+    "excerpt": "It was my second Monday at Meta, nine in the morning, and the coffee next to my monitor had gone cold while I stared at a diff with four hundred files in it."
+  },
+  {
+    "slug": "the-sunday-call-home",
+    "title": "The Sunday call home",
+    "date": "September 8, 2025",
+    "excerpt": "My mother's face fills the entire screen when she video calls on WhatsApp, her forehead cut off at the top, her chin at the bottom, as if the phone is something she is trying to look through rather than at."
+  },
+  {
+    "slug": "the-visa-stamp-on-page-seven",
+    "title": "The visa stamp on page seven",
+    "date": "June 15, 2025",
+    "excerpt": "The US consulate in Delhi has plastic chairs arranged in rows, the kind you find in hospital waiting rooms, and a number display above the window counter that moves forward with no discernible pattern."
   },
   {
     "slug": "what-copilot-is-becoming",

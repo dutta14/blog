@@ -83,3 +83,9 @@
     align-items: center;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .footer-nav-link {
+    transition-duration: 0.01ms !important;
+  }
+}
