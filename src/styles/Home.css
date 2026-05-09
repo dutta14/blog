@@ -250,6 +250,7 @@ body.dark-mode .tag-filter-bar--stuck {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   margin-bottom: 0;
+  scroll-margin-top: 120px;
 }
 
 /* Follow section — removed, now using NewsletterCTA compact variant */
